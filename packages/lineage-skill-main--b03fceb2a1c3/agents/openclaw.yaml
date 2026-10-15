@@ -1,0 +1,13 @@
+interface:
+  display_name: "Lineage Skill"
+  short_description: "Turn courses into Skills with visual micro-lessons."
+  default_prompt: "Use lineage-skill to turn my course, book, or media into a source-backed learning Skill that teaches progressively with terminal ASCII or SVG, asks two questions together, gives focused feedback on each, and helps me work independently."
+
+# Trust surface:
+#   - Reads only explicitly configured environment variables or explicit .env fallback files.
+#   - Processes local course videos, audio, PDFs, notes, supplemental screenshots, model-selected keyframes, and generated course artifacts.
+#   - Calls the transcription, vision, text, and OCR endpoints configured by the user.
+#   - Writes generated course artifacts and packaged skills under user-selected local directories.
+#   - Writes real learner state only to a host-provided external private directory.
+#   - Treats CoursePackage, TeacherModel, and MentorPackage as immutable source assets.
+#   - Does not commit course transcripts, screenshots, OCR outputs, or private course material.

@@ -1,0 +1,260 @@
+{
+  "name": "xiangsu-effect-practitioner-lineage",
+  "version": "1.0.0",
+  "status": "validated_candidate",
+  "require_human_approval": true,
+  "recursive_deletion": false,
+  "sources": [
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\lineage_manifest.json",
+      "sha256": "00770fd25f8295eafb9526fe7447bb5aca8b63080876797bdc0eea3599593274",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\SKILL.md",
+      "sha256": "750332224d0dc1f6dc11b740e095a450e951ae8f8437cad193e8140e56ceaf38",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\validation_report.json",
+      "sha256": "0f6de745846f18b14482243d21330b5e613e28cfcb3c7bb0f47e0a50812743f1",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\agents\\openai.yaml",
+      "sha256": "bfab4f8bc2b39a37c2be1cd3b03c333fd01e0e16698399bb3fba06b016c45ad6",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\agents\\openclaw.yaml",
+      "sha256": "668c842bea1b3e667255dc96adf813a659f7dd08968a368a624378f899f6e658",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\case_index.json",
+      "sha256": "e8f0aa277bf2f0499bdbacce2cb31c914728ea3ace814c77aa1edc13e21370cb",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\checklists.md",
+      "sha256": "975a452ae8da330b6609e3d772bdea305b779a3ea13976dc4c4f797a8fe0eaef",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\concept_glossary.md",
+      "sha256": "9bf43871c1992cc7ec51f3ab978f5980fa453d8467983cf6980ae3454d5ce9c1",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\course_digest.md",
+      "sha256": "1e65138b0d76ddd6b10a9e12816775b28481f2d0ece964f6f78e7077997cb790",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\course_package.json",
+      "sha256": "9df20a495b5b19f67c924fa0285b474e6d0f0a25f3ddd5461e53b3d3e5dbac1c",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\distillation_audit.json",
+      "sha256": "1b8ddfda19d7047e0aca049e0e32a494e858ce642f2ef03285e7a22cc61ff95b",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\distillation_audit.md",
+      "sha256": "5613f1ec541c6942e126cbfa06782757ab027f09e4bb271f1a064adebd5dfd23",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\evidence_map.json",
+      "sha256": "7ffac0e0d3fbd24be4449e01fd7fd44899da7327bef6ef99e48e884e78940141",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\full_transcript.md",
+      "sha256": "0f7a73d2e611be0405d7bfb1ab8170bfe1bb66131367eb8951633bcfc710e680",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\lesson_index.json",
+      "sha256": "8650a919670a954245cea9e08b3b6d4cfd01968f02e754a7d48c8a2e2956ebb5",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\playbooks.md",
+      "sha256": "7c6681ea6d42a853e4be25fb7d39769c8fa1269606b09e18b9000fb872a60388",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\quote_index.md",
+      "sha256": "437ffe7747a9e002da99121ce3b353d04c03dd318cb2f008a13f5835009325dc",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\study_paths.md",
+      "sha256": "c0fb2dc5a4a6ee07dd1994837234bd44696a4953f6762e215b75916de72c80a9",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\templates.md",
+      "sha256": "e45624d40088a78edc8994ab7f3bc23b450a85050e8fc52863c92da3d4232620",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\scripts\\fetch_course_evidence.py",
+      "sha256": "20e2e83ce7c3ae478f11c4cd5b60a44fa36591c2c27a8ca88fdf0feb834475ff",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\scripts\\search_course_notes.py",
+      "sha256": "08cf7fd5c4c376fd5798ece099a7b5535b8a28b28761d8896a1adf1c1b018b64",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\index.md",
+      "sha256": "968a709234e8366c26b5b1f216648aeeca9f8a07ab09aed0f3069ea231d1dc96",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\log.md",
+      "sha256": "7ee49409fbb64eacba07993b0eab672946a4a6daab66b2ce98c8b49a38a3df0d",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\boundaries\\001-ai依赖.md",
+      "sha256": "82549adac0c9023bd419e73c42a35165462e0388bd6b00c47d6eb78daf592fca",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\boundaries\\002-性能禁区.md",
+      "sha256": "215a92023c1e2d0770ec748ef40052415b968e3f888f006eb7ea4bb00a666beb",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\boundaries\\index.md",
+      "sha256": "a3a92bbdffc65d492612231ad0853840f37848224b96116d46d52ff0ef01590a",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\diagnostics\\001-视觉证据.md",
+      "sha256": "1e94306acf03c8369a38de0bb1ca2feb5ca3da93acc707fb06071cb97f785f31",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\diagnostics\\002-干扰因素.md",
+      "sha256": "5dd8bd966d39da0a161d36fab803923bca3e1e8ba51dafa2148b0c7f613e8b36",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\diagnostics\\003-缺口说明.md",
+      "sha256": "392f9b2923c8abbed132078d86f018013808d0d21449e920ae1c6e39ef36cd51",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\diagnostics\\index.md",
+      "sha256": "09a9dbe18d1702c31f35902213054db92d61696f56e77572d6fa90477938f15b",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\quotes\\001-参数调节是实现自然融合的核心-2d交互特效.md",
+      "sha256": "747421fa77c2ab21ab65054e35b4c61eaa311eb930e881a45399df3a860fc317",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\quotes\\002-实时数据反馈与ai生成的结合是高效建模的最优解-3d高斯能力_3.md",
+      "sha256": "e9b35ccd16b8ec13a41b499fc0ae6a9c1e17e8f207e9447e25fd9fa06656f42e",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\quotes\\003-节点系统是参数与视觉元素间的桥梁-2d交互特效_4.md",
+      "sha256": "81d909a60dda684c8aab3a5110239e6e29cf301f11ebe2eb05c80f25fc204095",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\quotes\\index.md",
+      "sha256": "7da6025ed34628d57d311d3b8c0d197ddeb6394782bd9ae5c5e884d04c91d5a8",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\rubrics\\001-最小纠偏.md",
+      "sha256": "b1ed46b807bbb1bedef95e88169a75a04925e7b9093cae0410adf9c48c57aea8",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\rubrics\\002-修订要求.md",
+      "sha256": "23025763bc086988bcb0c36e979d6fd0a39b13604ea4a3f1ba73a5710c1d13f1",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\rubrics\\003-退回条件.md",
+      "sha256": "d63ff148375d8484130b87078422c8340c31fc88b7b4c7361eaa93a8cb2c6414",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\rubrics\\index.md",
+      "sha256": "174fb34219c1b50e929374b4f8e376b1e0459a592b0e82dee7383b0cd87e67f1",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\study-paths\\001-面部贴纸必须关闭-朝向约束组件-实现3d透视-2d贴纸特效.md",
+      "sha256": "6ff02747409c5b0fa92f6955cfaf555bd817dc14bccf4f85456650fd86193baf",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\study-paths\\002-头模绑定需添加遮罩材质显示底层人脸-头模课.md",
+      "sha256": "6d960018458109d1868fc25f69cfb52bee2fcb336845c1ee9cb7c59b27495d66",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\study-paths\\003-物理关节断裂力必须设为正值-物理关节_5.md",
+      "sha256": "4dbbf42f75b7d76b8a0334f22d4db73185f3778724faa4f273f417951267f6ce",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\study-paths\\004-使用像素link插件实现psd图层一键导入-抖音极速入门_2.md",
+      "sha256": "43c39530571cc7113afccc395fb73e485b3baeb50320bd8540b2a2b2e453c93b",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\dist\\xiangsu-effect-practitioner-lineage\\references\\okf\\study-paths\\index.md",
+      "sha256": "70214be653686303541ca32eb1b8f5bf6729e7c08434bdb2fc04335eace95199",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\CHANGELOG.md",
+      "sha256": "2a8f2ff6b1bb573191ab5516ddd8530b1bf24b113086d850f6d539c33723d718",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\manifest.json",
+      "sha256": "0ea3c8eac8288357accef908b5464e4f343a3bfd64273e4727ff348a4abce009",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\SKILL.md",
+      "sha256": "75061a97e3e7d206fdec87de814fb8723e4a6c016476b93d9582bb42aa1f9c93",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\VERSION",
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\references\\maintenance-policy.md",
+      "sha256": "3d036d7aea06042f7e12ecf820678875b9b1121b9a19102b72d12a4bbc2ee6a9",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\scripts\\atomic_move.ps1",
+      "sha256": "7ae1bc09fb27b78419ba87aabda94517536fed6b87346adef52c4c1f0472fdd7",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\scripts\\lifecycle.py",
+      "sha256": "0e361375ff5f41e4975619ad12cd5c6ba9a71e7211366b419f09216151b1b236",
+      "kind": "local_migration_source"
+    }
+  ],
+  "upstream": "Local WorkBuddy snapshot; remote not checked"
+}

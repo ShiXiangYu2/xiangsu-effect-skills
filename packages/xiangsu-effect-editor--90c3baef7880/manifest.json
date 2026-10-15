@@ -1,0 +1,64 @@
+{
+  "name": "xiangsu-effect-editor",
+  "version": "1.0.1",
+  "status": "validated_candidate",
+  "require_human_approval": true,
+  "recursive_deletion": false,
+  "sources": [
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-official-reinstall-20261008-122055\\api-bundle.json",
+      "sha256": "fe91ee9787b3384b462c827618a1b4eec1e13b1b532dd1383cf19330ea6e5698",
+      "kind": "official_api_snapshot"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\scripts\\lifecycle.py",
+      "sha256": "0e361375ff5f41e4975619ad12cd5c6ba9a71e7211366b419f09216151b1b236",
+      "kind": "governance_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\scripts\\atomic_move.ps1",
+      "sha256": "7ae1bc09fb27b78419ba87aabda94517536fed6b87346adef52c4c1f0472fdd7",
+      "kind": "governance_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\SKILL.md",
+      "sha256": "75061a97e3e7d206fdec87de814fb8723e4a6c016476b93d9582bb42aa1f9c93",
+      "kind": "governance_source"
+    },
+    {
+      "path": "D:\\微信聊天记录\\xwechat_files\\wxid_wt3feujlfqo22_175e\\temp\\RWTemp\\2026-10\\b442564f3bbaceb613792c472e972397\\8153c4d828e2b067f9d047358794bd91.jpg",
+      "sha256": "8251727ad6d3e52e13ffb10fff01cdd1ae1ac0f93423e833e111728b4c60c39f",
+      "kind": "user_supplied_review_screenshot"
+    },
+    {
+      "path": "D:\\微信聊天记录\\xwechat_files\\wxid_wt3feujlfqo22_175e\\temp\\RWTemp\\2026-10\\b442564f3bbaceb613792c472e972397\\3b0520879e18af81eb5a7be58a987515.jpg",
+      "sha256": "f9b757605398c1d4558dc85444b32d420d9d8b015715533f1fc6dfd7e8d6e8f0",
+      "kind": "user_supplied_review_screenshot"
+    },
+    {
+      "path": "D:\\微信聊天记录\\xwechat_files\\wxid_wt3feujlfqo22_175e\\temp\\RWTemp\\2026-10\\b442564f3bbaceb613792c472e972397\\ddadd456160686e38c2fdf0acd969290.jpg",
+      "sha256": "9b03a156c3cea157a8cdd2db26433fcc9d601aaa1c6285fda623c6eca8e90853",
+      "kind": "user_supplied_review_screenshot"
+    },
+    {
+      "path": "D:\\微信聊天记录\\xwechat_files\\wxid_wt3feujlfqo22_175e\\temp\\RWTemp\\2026-10\\b442564f3bbaceb613792c472e972397\\846237f0dfd24ab5b40a4f2993edfb33.jpg",
+      "sha256": "ca213981eac1f9b8840108bc498064616a680c2c13a4f5f61277116945351f6f",
+      "kind": "user_supplied_review_screenshot"
+    },
+    {
+      "path": "C:\\Users\\18168\\AppData\\Local\\Temp\\codex-clipboard-f0e901f5-74ef-4c01-8814-8d9bfb5cf1fd.png",
+      "sha256": "9ee2874f16780ae8f164b3d57a550d3f16e986150571b64aea57492a9b25b617",
+      "kind": "user_supplied_review_screenshot"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-review-update-20261009\\evidence-index.json",
+      "sha256": "39a6f21a741a6578206ee174263878e990a617999a0ea4d91ce191ef3cd8f2d2",
+      "kind": "local_session_evidence_summary"
+    }
+  ],
+  "official_install_api": "http://127.0.0.1:17320/internal/install-bundle",
+  "official_skill_content_unmodified": false,
+  "maintenance": "scripts/lifecycle.py check-sources; prepare reviewed candidates for source changes; no remote auto-update",
+  "local_extension_basis": "2026-10-09 user review screenshots and observed local practice",
+  "official_connection_workflow_preserved": true
+}

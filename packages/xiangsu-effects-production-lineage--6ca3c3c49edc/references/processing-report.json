@@ -1,0 +1,32 @@
+{
+  "role": "practitioner",
+  "source_readiness": "sampled_visual_and_partial_speech",
+  "mentor_readiness": "partial_not_full_coaching",
+  "runtime_readiness": "source_lookup_and_production_workflows",
+  "excluded_downloads_ffprobe_unreadable": 76,
+  "lifecycle_hashing": "streaming SHA256 over full source bodies",
+  "source_bodies_included": false,
+  "private_learner_records_included": false,
+  "coverage": {
+    "source_files": 263,
+    "complete_media_files": 187,
+    "unique_media": 156,
+    "duration_minutes": 649.2,
+    "excluded_incomplete_downloads": 76,
+    "topic_count": 64,
+    "transcribed_media": 79,
+    "no_audio_media": 38,
+    "unconfirmed_speech_media": 13,
+    "asr_failed_media": 26,
+    "visual_analysis_files": 156,
+    "visual_analyses_reverified": 100,
+    "prior_visual_analyses_reused": 56,
+    "all_media_have_source_index": true
+  },
+  "card_count": 299,
+  "exact_quote_validation": "all_primary_and_secondary_quotes_matched_external_capture",
+  "literal_evidence_audit": "passed",
+  "human_review": "important API names, UI versions and operating parameters still require project-specific verification",
+  "compiler_source_zip_sha256": "82f9e71a48da4f4fcd26f1aea86ce1a07a503335863574a8a385da022faefbce",
+  "local_compiler_adaptation": "llm_client.py uses images for provider compatibility; captured as a separate source hash"
+}

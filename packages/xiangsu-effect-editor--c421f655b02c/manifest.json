@@ -1,0 +1,287 @@
+{
+  "name": "xiangsu-effect-editor",
+  "version": "1.3.0",
+  "status": "validated_candidate",
+  "require_human_approval": true,
+  "recursive_deletion": false,
+  "upstream": "Local Codex baseline plus 2026-10-11 user-directed practice; no official remote release source",
+  "historical_sources": [
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\CHANGELOG.md",
+      "sha256": "f319ff16217cfdfbad72f77902c542172a776443ca6a52c431fd115b01f8a83e",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\manifest.json",
+      "sha256": "e1aad18eb42c8fd4ad8de35181d9031f7316588c7ab0e755f39314b875534739",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\SKILL.md",
+      "sha256": "c8a2b58eb2efedb61e5772491881a28210f83e06f9c2f86c9e11e48089e5de32",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\VERSION",
+      "sha256": "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\references\\case-studies.md",
+      "sha256": "641cefc81d750dffea1876bf64513aafe081732fb16eecc672b3f7e0993f6341",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\references\\maintenance-policy.md",
+      "sha256": "3d036d7aea06042f7e12ecf820678875b9b1121b9a19102b72d12a4bbc2ee6a9",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\references\\reskin-playbook.md",
+      "sha256": "67f1410fddfa25e8ed9f8561c28c35d046ed11900b9154a6345c3815948470d7",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\references\\rpc-fallback.md",
+      "sha256": "1bcf42b6e50539c81e4efee80a217bbcce1eafa4bfe3c274ceb23ab1c1ec786e",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\scripts\\atomic_move.ps1",
+      "sha256": "7ae1bc09fb27b78419ba87aabda94517536fed6b87346adef52c4c1f0472fdd7",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\scripts\\crop_regions.py",
+      "sha256": "0b6b15ce55f6456b4a6614437ae2052468efb4dfc51e444530396d981766fc79",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\scripts\\lifecycle.py",
+      "sha256": "0d087a76cb2cd0a3d77e6ff745f90ad5aceb8082dff44e226b031ca7d55c1da3",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\scripts\\uv_recolor.py",
+      "sha256": "f43b908566844cee6a5ca7a9bef51f1caf15ff540b5be3e23f4992b4f4f55b1f",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\CHANGELOG.md",
+      "sha256": "2a8f2ff6b1bb573191ab5516ddd8530b1bf24b113086d850f6d539c33723d718",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\manifest.json",
+      "sha256": "0ea3c8eac8288357accef908b5464e4f343a3bfd64273e4727ff348a4abce009",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\SKILL.md",
+      "sha256": "75061a97e3e7d206fdec87de814fb8723e4a6c016476b93d9582bb42aa1f9c93",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\VERSION",
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\references\\maintenance-policy.md",
+      "sha256": "3d036d7aea06042f7e12ecf820678875b9b1121b9a19102b72d12a4bbc2ee6a9",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\scripts\\atomic_move.ps1",
+      "sha256": "7ae1bc09fb27b78419ba87aabda94517536fed6b87346adef52c4c1f0472fdd7",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\scripts\\lifecycle.py",
+      "sha256": "0e361375ff5f41e4975619ad12cd5c6ba9a71e7211366b419f09216151b1b236",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.codex\\skills\\xiangsu-effect-editor\\manifest.json",
+      "sha256": "927a1ab053eb9cee86c2f17cca127fdc42ccd00c0c0ba9d9abb58714e84ecee9",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.codex\\skills\\xiangsu-effect-editor\\SKILL.md",
+      "sha256": "337af2d45be8a82611f72b0fdca4c3b0f0cf673a9b9eab2c6045c2ceba9097fd",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.codex\\skills\\xiangsu-effect-editor\\VERSION",
+      "sha256": "44e161e4495cac2cf7858043e9e6418e9579f0ddcfae826f9a372622968ce066",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.codex\\skills\\xiangsu-effect-editor\\references\\maintenance-policy.md",
+      "sha256": "3d036d7aea06042f7e12ecf820678875b9b1121b9a19102b72d12a4bbc2ee6a9",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.codex\\skills\\xiangsu-effect-editor\\references\\optimization-evidence.md",
+      "sha256": "d282f36866a0c33c503746929c46f4412b710a4a5ddb7bbf8e0063ab60fef7d9",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.codex\\skills\\xiangsu-effect-editor\\references\\review-routing.md",
+      "sha256": "76c806b4956f64f35b101c7e91350a0e59c9d2d9c9725ae035525c56bffbbee9",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.codex\\skills\\xiangsu-effect-editor\\scripts\\atomic_move.ps1",
+      "sha256": "7ae1bc09fb27b78419ba87aabda94517536fed6b87346adef52c4c1f0472fdd7",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.codex\\skills\\xiangsu-effect-editor\\scripts\\lifecycle.py",
+      "sha256": "0e361375ff5f41e4975619ad12cd5c6ba9a71e7211366b419f09216151b1b236",
+      "kind": "local_migration_source"
+    }
+  ],
+  "sources": [
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-practice-20261011-v1.3.0\\baseline\\xiangsu-effect-editor\\CHANGELOG.md",
+      "sha256": "f319ff16217cfdfbad72f77902c542172a776443ca6a52c431fd115b01f8a83e",
+      "kind": "immutable_installed_baseline"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-practice-20261011-v1.3.0\\baseline\\xiangsu-effect-editor\\manifest.json",
+      "sha256": "a6f52156e50f0c3a506a8d69aa0ac83f359494b03eb2761c72f1c4579c7b8264",
+      "kind": "immutable_installed_baseline"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-practice-20261011-v1.3.0\\baseline\\xiangsu-effect-editor\\references\\case-studies.md",
+      "sha256": "641cefc81d750dffea1876bf64513aafe081732fb16eecc672b3f7e0993f6341",
+      "kind": "immutable_installed_baseline"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-practice-20261011-v1.3.0\\baseline\\xiangsu-effect-editor\\references\\maintenance-policy.md",
+      "sha256": "3d036d7aea06042f7e12ecf820678875b9b1121b9a19102b72d12a4bbc2ee6a9",
+      "kind": "immutable_installed_baseline"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-practice-20261011-v1.3.0\\baseline\\xiangsu-effect-editor\\references\\optimization-evidence.md",
+      "sha256": "d282f36866a0c33c503746929c46f4412b710a4a5ddb7bbf8e0063ab60fef7d9",
+      "kind": "immutable_installed_baseline"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-practice-20261011-v1.3.0\\baseline\\xiangsu-effect-editor\\references\\reskin-playbook.md",
+      "sha256": "67f1410fddfa25e8ed9f8561c28c35d046ed11900b9154a6345c3815948470d7",
+      "kind": "immutable_installed_baseline"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-practice-20261011-v1.3.0\\baseline\\xiangsu-effect-editor\\references\\review-routing.md",
+      "sha256": "76c806b4956f64f35b101c7e91350a0e59c9d2d9c9725ae035525c56bffbbee9",
+      "kind": "immutable_installed_baseline"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-practice-20261011-v1.3.0\\baseline\\xiangsu-effect-editor\\references\\rpc-fallback.md",
+      "sha256": "1bcf42b6e50539c81e4efee80a217bbcce1eafa4bfe3c274ceb23ab1c1ec786e",
+      "kind": "immutable_installed_baseline"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-practice-20261011-v1.3.0\\baseline\\xiangsu-effect-editor\\scripts\\atomic_move.ps1",
+      "sha256": "7ae1bc09fb27b78419ba87aabda94517536fed6b87346adef52c4c1f0472fdd7",
+      "kind": "immutable_installed_baseline"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-practice-20261011-v1.3.0\\baseline\\xiangsu-effect-editor\\scripts\\crop_regions.py",
+      "sha256": "0b6b15ce55f6456b4a6614437ae2052468efb4dfc51e444530396d981766fc79",
+      "kind": "immutable_installed_baseline"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-practice-20261011-v1.3.0\\baseline\\xiangsu-effect-editor\\scripts\\lifecycle.py",
+      "sha256": "0e361375ff5f41e4975619ad12cd5c6ba9a71e7211366b419f09216151b1b236",
+      "kind": "immutable_installed_baseline"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-practice-20261011-v1.3.0\\baseline\\xiangsu-effect-editor\\scripts\\uv_recolor.py",
+      "sha256": "f43b908566844cee6a5ca7a9bef51f1caf15ff540b5be3e23f4992b4f4f55b1f",
+      "kind": "immutable_installed_baseline"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-practice-20261011-v1.3.0\\baseline\\xiangsu-effect-editor\\SKILL.md",
+      "sha256": "ea47a0d4b621451f88c38743706d88690ebf94e1e90bcda79eab6d077488e51b",
+      "kind": "immutable_installed_baseline"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-practice-20261011-v1.3.0\\baseline\\xiangsu-effect-editor\\VERSION",
+      "sha256": "1e5b51cde515396a9fa762909cf8ca6584ccc564b325d2eebeea76175fe95c4d",
+      "kind": "immutable_installed_baseline"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-practice-20261011-v1.3.0\\evidence\\build_spider.py",
+      "sha256": "60e382d417a52375323cf782c3c64fc5863a0dba321fd4e9f5668fa87380aac3",
+      "kind": "local_practice_snapshot"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-practice-20261011-v1.3.0\\evidence\\conversation-extract.json",
+      "sha256": "2540220dcb890c9cee2d8b62a7a05936d2fa9b1b8c2707a41eec99b3a61d9a10",
+      "kind": "local_practice_snapshot"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-practice-20261011-v1.3.0\\evidence\\SpiderCrawl.ts",
+      "sha256": "938379ffee40537cd5836e88c1e1db7bf1e1d89114074fb251831de513d6528c",
+      "kind": "local_practice_snapshot"
+    },
+    {
+      "path": "C:\\Users\\18168\\Documents\\Codex\\2026-10-11\\sh\\outputs\\月亮打盹猫_预览.mp4",
+      "sha256": "bd735a11475452d322dda92e3e758539faeaf78143555eab4314047c3b360e5d",
+      "kind": "local_practice_artifact"
+    },
+    {
+      "path": "C:\\Users\\18168\\Documents\\Codex\\2026-10-11\\sh\\outputs\\一键剃光头-预览.mp4",
+      "sha256": "9be746d7bd30da115fbf3164d186e20faae53354f838eed3a4030bfc30e6eea5",
+      "kind": "local_practice_artifact"
+    },
+    {
+      "path": "C:\\Users\\18168\\Documents\\Codex\\2026-10-11\\sh\\outputs\\蜘蛛爬脸-循环加速预览.mp4",
+      "sha256": "0292a0f4b25d2203a1b573b484995a51b28e43c20188d018eb47cae93d104c30",
+      "kind": "local_practice_artifact"
+    },
+    {
+      "path": "C:\\Users\\18168\\Documents\\Codex\\2026-10-11\\sh\\outputs\\蜘蛛.glb",
+      "sha256": "9d7c1816ed80ac01699f86eea17c1f828fd095d7d4c5442e0e48e0db1c669642",
+      "kind": "local_practice_artifact"
+    },
+    {
+      "path": "C:\\Users\\18168\\Documents\\Codex\\2026-10-11\\sh\\outputs\\蜘蛛源文件.blend",
+      "sha256": "932e5826283876a76084a21071cd8aafed23b6b9d0275328f9a1346bf3fafe85",
+      "kind": "local_practice_artifact"
+    },
+    {
+      "path": "C:\\Users\\18168\\Documents\\Codex\\2026-10-11\\sh\\work\\spider\\seam-contact.jpg",
+      "sha256": "fc5abe7570aa3904b1c7a5a0c1d6f718a16d1191d7b58e343743dd7611b81414",
+      "kind": "local_practice_artifact"
+    }
+  ],
+  "source_check_note": "Original check report retained outside candidate; changed WorkBuddy files inspected, not auto-merged. Self-references replaced by immutable baseline snapshot, historical manifest retained.",
+  "file_hashes": {
+    "CHANGELOG.md": "aed418e2a6df2ec74945426a9829ac698d0da62efbb49c64ef9f94cdf1e891f7",
+    "references/case-studies.md": "641cefc81d750dffea1876bf64513aafe081732fb16eecc672b3f7e0993f6341",
+    "references/maintenance-policy.md": "3d036d7aea06042f7e12ecf820678875b9b1121b9a19102b72d12a4bbc2ee6a9",
+    "references/optimization-evidence.md": "fc263fb5a1641c8b4c2061be121f5f32eacdf4e20f8aa02626139d2cee09cc5b",
+    "references/practice-20261011/evidence-index.json": "513cb1a63a8bea9d041823faf80aa4bd0249cd15cb11e38c7fa93851d549f529",
+    "references/practice-20261011/examples/DreamFloat.ts": "bbb5aea1b68302322ea50640b2cc7292295e40ee20205cfdad171219a904507e",
+    "references/practice-20261011/examples/ShaveDirector.ts": "6c1a757a05bc4a33f022fc80ddc681cf31af334ae96003982d236b55aab5bbf3",
+    "references/practice-20261011/examples/SpiderCrawl.ts": "938379ffee40537cd5836e88c1e1db7bf1e1d89114074fb251831de513d6528c",
+    "references/practice-20261011/implementation.md": "d754c36ecd86a46e52d20abf85fd8d2ccb0478a0c587f71cd9f9abb144d5c95d",
+    "references/practice-20261011/index.md": "3116309710a81eb2b70acfd5db0b76f931f875f2c096ee11548ea32a2bd4f1d5",
+    "references/practice-20261011/mooncat.md": "d3100234c0507636992cc3249f230e19728f321cecfadba747aee20f19226a2d",
+    "references/practice-20261011/shave.md": "0bd427b75f9517be97ab07714828bac1f7a2f9b949ac3c857a149a0141fe122c",
+    "references/practice-20261011/spider.md": "1a157f396f3259a9ce5ec0dcf553d31372a403eca0cf7b97b3c6a9b7fb07d736",
+    "references/reskin-playbook.md": "67f1410fddfa25e8ed9f8561c28c35d046ed11900b9154a6345c3815948470d7",
+    "references/review-routing.md": "76c806b4956f64f35b101c7e91350a0e59c9d2d9c9725ae035525c56bffbbee9",
+    "references/rpc-fallback.md": "1bcf42b6e50539c81e4efee80a217bbcce1eafa4bfe3c274ceb23ab1c1ec786e",
+    "scripts/atomic_move.ps1": "7ae1bc09fb27b78419ba87aabda94517536fed6b87346adef52c4c1f0472fdd7",
+    "scripts/crop_regions.py": "0b6b15ce55f6456b4a6614437ae2052468efb4dfc51e444530396d981766fc79",
+    "scripts/lifecycle.py": "0e361375ff5f41e4975619ad12cd5c6ba9a71e7211366b419f09216151b1b236",
+    "scripts/uv_recolor.py": "f43b908566844cee6a5ca7a9bef51f1caf15ff540b5be3e23f4992b4f4f55b1f",
+    "SKILL.md": "9a31b4af0b766609dce1b4c3f03d012275108011289f33690aafcf648b3e6602",
+    "VERSION": "64d23f858ef51b0f996e4966d4e27c0371b437e2d2787890b1f7ad22d4ec5663"
+  }
+}

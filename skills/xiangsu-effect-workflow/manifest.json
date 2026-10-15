@@ -1,0 +1,510 @@
+{
+  "name": "xiangsu-effect-workflow",
+  "version": "1.0.0",
+  "status": "validated_candidate",
+  "require_human_approval": true,
+  "recursive_deletion": false,
+  "sources": [
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\.env.example",
+      "sha256": "f9a944a0952e30f30b8a7e98cde9bcd571bcf712437577842b9bf1cec88378e4",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\SKILL.md",
+      "sha256": "5a45275204da32728bca2f3a43e87c321f78d758b49cc514eb97dd784107972d",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\references\\jev_questions.md",
+      "sha256": "a5debc2c664babe01b60cde299b960a5b21e0f8db4184e757b4f0de2607e6012",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\references\\model_routing.md",
+      "sha256": "30234ee1f219e9aa6e649fd1cee374a7eb2146b719bd6ee277204dc0e229ef1d",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\references\\workflow.md",
+      "sha256": "1b6f3b0a7b14e4024a75bccde9eeac77445a0482c92e4266ff0dc29e43a7267a",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\scripts\\jev_client.py",
+      "sha256": "ba70d4a8bdbd72afcbc41af6716ca9966ddb9f532d8dcd8bb991dcde384a5230",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\scripts\\jev_selfcheck.py",
+      "sha256": "f858e2bdbfc202eff824448a3ef1b26efe586617d3aa1309510d3aba00d26859",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\scripts\\opc_client.py",
+      "sha256": "40a6510b917dde92c1dcf7d2bef3f00267697247308f937b1280be5a62b1e837",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\asset-manager\\SKILL.md",
+      "sha256": "60eaa794e83aba777716598ddc57a325c27c8e97109f15d7b8c45a449fc7fd0f",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\abilities.yaml",
+      "sha256": "d058895f09db2e37fb0d5ceb6e0061d2b1d6001686c470a42bd01ec7d79292ba",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\game2d-planner\\SKILL.md",
+      "sha256": "fab33fa5190284493186ea9a9519cecca9ac7f66616351e75c839d0a45182c9c",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\preview-verification\\SKILL.md",
+      "sha256": "247bbf461b06b7a6e067c3c13f9fba50901a931d1d74721b19225f7a83fe1d6c",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\scene-builder\\SKILL.md",
+      "sha256": "4a8779f63faa1b395c571a6b9d5575ab520e10eb8809899b33435a90ba767b47",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\ui-layout\\SKILL.md",
+      "sha256": "50c23b80ea35f2d55d48ebfea8d4cf9e191e48066ed6d2700cb505b4ddab2a87",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\visual-effect-planner\\SKILL.md",
+      "sha256": "485f6a6b420eb207fb685be5b1d1ec52af825baf4babcaa69c009436d6f7b8bb",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\audio-detection\\SKILL.md",
+      "sha256": "6a61cc19993bc097d750a753b8385f8d07e3cb56a5704e9600de5218f4093d46",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\checkin\\SKILL.md",
+      "sha256": "de6bb5bbd757b2e64cbbd0f8a567e091a19fd8cfb8745a2622c0f5a2248007e9",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\game2d-engine\\2D游戏接口.md",
+      "sha256": "e0a67a02e58e62d77f41225adffe0cd0bbda5b8b3cb5b54a40a7a9f1a91084a1",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\game2d-engine\\SKILL.md",
+      "sha256": "9abfe989b88920564be7b5b6eecbdad798dfdf0e3067d3757ffa8268b08f6a7f",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\game2d-engine\\物理系统.md",
+      "sha256": "4da0cbd75b0f6b46813dbd58515cfb839644ccd0c2eaa91fe8c07c53d290e5f9",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\game2d-engine\\视觉特效.md",
+      "sha256": "2043233b6e7d9c69176fca8fdef813ba7c391dd0ba4617d3c87454a1b11f1ab0",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\gan\\GAN.md",
+      "sha256": "b5348419de49ad57c4099484708b6cad8ad6a6ad90d1a15ff10fafb9363795c1",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\gan\\SKILL.md",
+      "sha256": "d0e93a259a57ac251f16b133aad54e96c3de9f754123f3c66d619b93b447cb67",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\material-authoring\\SKILL.md",
+      "sha256": "3dd0734ddffeba765918a7cd4a239153b42ce4b0dc57d27766cf992402c25ab9",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\material-authoring\\材质编写.md",
+      "sha256": "098c77e38a702ab11ffd28e75bd14215e202d15259bdcd3cc4e59c7f13ae937b",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\post-processing\\SKILL.md",
+      "sha256": "906cf7786bd658effcc28e62e6cdb2584829a754725d5c8444619df40627859e",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\post-processing\\画面效果.md",
+      "sha256": "f119c23561e158061e3a5eb03fc842844526ff0d8b491e3117ace8193c82dc48",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\preview-tool\\Preview工具.md",
+      "sha256": "46f4679ca30d1ade2491215d326c0c1f17c942d893dc7b01b5655657cb3d04d5",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\preview-tool\\SKILL.md",
+      "sha256": "0b2078743d3520c0805fa6545b2b7fdfac4f579903c5958a210e965b1243b935",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\ranking-list\\SKILL.md",
+      "sha256": "db2031c8d0d3b216a9c2fd74dbe93fddb52aeb5720df147843d10651f8d8ed60",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\ranking-list\\打卡排行榜.md",
+      "sha256": "f98de791f64cbd3963539c8e7da09b40fa70468d3ffb4b9d25c5a197183503d9",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\ranking-list\\游戏排行榜.md",
+      "sha256": "088469f9af27c45076a1ed3378f3d66d8e09b02edc5d00123862ad05d150e33b",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\social-profile\\SKILL.md",
+      "sha256": "eaf87ee1dd05bdeac196fca7f944e4ea5da80409794208cd57d20b68ebcb0830",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\social-profile\\个人信息卡.md",
+      "sha256": "8dbf2b61c41381099ca11db92691daba50ae4976bcde01205eba1e846a072e1d",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\social-profile\\地理位置展示.md",
+      "sha256": "424f335c1667d4e3751f3e9d8a25d04411bca49298b57c58a3dcea3787c98836",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\social-profile\\好友头像.md",
+      "sha256": "e02d9aba647bbb3acc95b8f1c739e0057a958a676c80a957cc7beeacb60e13a2",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\vision-algorithm\\SKILL.md",
+      "sha256": "55393674d3519ed8ba56f484c9d11f91d07677767abcdef8ece62903ce4613d8",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\vision-algorithm\\面部属性.md",
+      "sha256": "8a043ec6f922f3f58c73d20e6bcd470dff6cad5a094025faa188a0607f287942",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\vision-algorithm\\面部检测.md",
+      "sha256": "f39c93d88cc2088160c1276f0d08790d1fb7f3900db4a0ef871e3d2d9f39b5b6",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\audio-detection\\api\\AgentAudioDetector.d.ts",
+      "sha256": "923bc5e888e69cb7e833982938c4e65373dfc8f298016dc71af8accd4af26c60",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\audio-detection\\api\\AgentAudioDetector.ts",
+      "sha256": "245ecbd4bba69ce2ff606b6b1bc4ba8a4e1cbd7abe866fbb0b48090b807c5698",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\audio-detection\\api\\AgentAudioKeyword.d.ts",
+      "sha256": "740dc75abe929766aed4e1676256c44680d4b64d0ef666aa7afde5ccb677df07",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\audio-detection\\api\\AgentAudioKeyword.ts",
+      "sha256": "9a63e73dc4fe50c2537e08e1deb2aff42a3110317c10700bf2904f0431448d31",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\checkin\\api\\Checkin.d.ts",
+      "sha256": "044c53ac01594207752e65ff27e9e6bbd0f0dea07efc8fe6a73b7555dc0ae817",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\checkin\\api\\Checkin.ts",
+      "sha256": "31804aa36a5921a9c28a1a1845b2e85aa285dba911c1d5a21ac22c96f08209ec",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\game2d-engine\\api\\Game2D.d.ts",
+      "sha256": "3dc7452307e1202986e7f66693530b134605512b49b5b494e8b8c261ccd316c5",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\game2d-engine\\api\\Game2D.ts",
+      "sha256": "e7e748e5ef4351e0a4036f2501358bde3ee1369fbfd5a5ec8251689903ed35aa",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\game2d-engine\\api\\Matter2D.d.ts",
+      "sha256": "b05f5c0c49ac9b34b7e365cfd53ce12879e70cc00de922e9ffc648d4a38b4f56",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\game2d-engine\\api\\Matter2D.ts",
+      "sha256": "29c24765f68aed5d6654fb3ffc02a76d6ed4e91f761e8a039a27967aa3488b45",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\game2d-engine\\api\\ScriptTemplate.ts",
+      "sha256": "d84865895613ec19d366503e028a0cffa63d2585a98d2261064ba0b92045474c",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\material-authoring\\references\\APJS-Material-Runtime-API.md",
+      "sha256": "38cbe3a77f2cb0f111b7734c2b413dc17b342abc376513d46862fb0deaf76c4e",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\material-authoring\\references\\AUSL-Syntax.md",
+      "sha256": "9e1a84b196cab43242979f1cf8bae82a7cc2c17c07a96dc8ea614ae6afc97d0d",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\material-authoring\\references\\PostProcess-CustomMaterial-Reference.md",
+      "sha256": "f23a8263235228aa515fdc1cbcef710844a20b141255a3bbf882237fb97d99ac",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\material-authoring\\references\\PostProcess-CustomMaterial-Troubleshooting.md",
+      "sha256": "3653a96d742ab97a4f4f5ca18d937eeecf064629bb3528ad8b09d3d56b112ea6",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\material-authoring\\references\\recipes\\Recipe-AccumulationBrush.md",
+      "sha256": "e1debd9fc8787f6e76c656c2b028037bfce5fbe401fbef74157474b5ebb30bd2",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\material-authoring\\references\\recipes\\Recipe-Dissolve.md",
+      "sha256": "e0540e6dbde024fc0f27e4bfe1697a799fe0b33083c98f7302acefd5feca9928",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\material-authoring\\references\\recipes\\Recipe-FurShell.md",
+      "sha256": "a280c811496b2b33cf1dc4681e25f2532703895d7a8474b5876dfbfb8efbe3c4",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\material-authoring\\references\\recipes\\Recipe-PostProcess-SobelEdge.md",
+      "sha256": "65006f607b6894bd23c15d1b3302ad8a07560789bdb00e4ab205b22680a1ac80",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\material-authoring\\references\\recipes\\Recipe-PostProcess-WaterRipple.md",
+      "sha256": "e0f50922a7fd64075091dab969e988bbb7aab6af0f00a0adf335810e5d12bcd0",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\ranking-list\\api\\Game2DCheckinRankingList.d.ts",
+      "sha256": "875074fcb50489ce5a3bc3f57015a459413d8d055fa54098896315baa060bc2c",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\ranking-list\\api\\Game2DCheckinRankingList.ts",
+      "sha256": "db240532d18aa03b5d4ac26131332d22de50b5bac22ae0a2a3583b84ba1b5722",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\ranking-list\\api\\Game2DRankingList.d.ts",
+      "sha256": "976121600ba53f09e455fee2909de79b40ede9e26be4df296466350371d5887f",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\ranking-list\\api\\Game2DRankingList.ts",
+      "sha256": "2318f2fa1893a1d2de57bf69c1a2b04578dd06806a7adc679c2eda4f24184ee5",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\social-profile\\api\\FriendAvatars.d.ts",
+      "sha256": "782e59957b6fcf64a3e272836810961ac8a518d05822cc847f931280abe67026",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\social-profile\\api\\FriendAvatars.ts",
+      "sha256": "24aa9c6cb88a2c8100f43b5c014331f00beea9ac25c781d0e5e0d808eb2b94c4",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\social-profile\\api\\PersonalInfo.d.ts",
+      "sha256": "52ed441d330c8fb99f72f9348cbb53d988bf672381237dc1c931b3eebc3ea691",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\social-profile\\api\\PersonalInfo.ts",
+      "sha256": "a2d5b5900235dc0e83815cf674c77643fc4a6d62a6e4fa3396289d57786f2fca",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\social-profile\\api\\POI.d.ts",
+      "sha256": "9f48213369a756d0f69204a4bfb0f0595375a021bb20ce85f667e4f6c13fba63",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\social-profile\\api\\POI.ts",
+      "sha256": "7e24bd190f267c405293bccc8266f3987c7d4f3b4cdf2f89acfd4f048916c8b8",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\vision-algorithm\\api\\Vision.d.ts",
+      "sha256": "8166eb5be7c02de5691727af9f2482cc5a2556924bfa1b73ce243abe55cb8cf9",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\vision-algorithm\\api\\Vision.symbol-alias.json",
+      "sha256": "3d53b8378ac246794035c4c04eab4a28c88305a659ffbc34159ccce930171998",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\effect-abilities\\vision-algorithm\\api\\Vision.ts",
+      "sha256": "40baf5e9b35a0209ba62240f3defe9aafc6f97dec95b2c32b5ba40b785433fd4",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\game2d-planner\\references\\audio-challenge.md",
+      "sha256": "5eac8e31d17f1ba9deabcd4961e5f9374f65af9a0127e804646464663f00eef4",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\game2d-planner\\references\\challenge-action.md",
+      "sha256": "08a8c098ebcaef6e24c19f083ca427c1da45552d9477ed410cb058fc7aa4ee60",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\game2d-planner\\references\\choice-result.md",
+      "sha256": "b73026dd74d3f09d7287ab790ba9e583de7a0b44929374c4ce2809ab98e8e76a",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\game2d-planner\\references\\continuous-process.md",
+      "sha256": "d252a450c2157a121f726395e774d73ffe6a79ef8d404cf79267503ecf786269",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\game2d-planner\\references\\gameplay-quality.md",
+      "sha256": "45eef27c5ea9ee5e18ec325d25e4ab2dfdebc2ba82f65784b1eefe36b38a0a57",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\game2d-planner\\references\\quiz-result.md",
+      "sha256": "9e49a7537a268d2d2cbb7283d10a0210dbbe7aeceb1dc867d70a9a8b8946e13e",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\game2d-planner\\template\\Draft_Template.md",
+      "sha256": "6b0e711fffb2259d24319ecddd4ac06632918d3a8c2a488c75ba9ec1f065a873",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\preview-verification\\references\\effect_preview_verfication.md",
+      "sha256": "6b41fbf0db8418e30dd34fdaeb07bd4f505c36dd677b4622f224352f98d40ffb",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\preview-verification\\references\\game_preview_verfication.md",
+      "sha256": "c677b3b9877da04098aa22976b5a107560099cdcb8b11b0b21593dd7522da859",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\ui-layout\\references\\fixed-layout-reference.md",
+      "sha256": "b695850448d8d72ed352d180df82f45282491387b9354c712e4c39fdf995e1f0",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\ui-layout\\references\\game-style-library.md",
+      "sha256": "febea0f1afde8adbd0a111075a0c608c822d679daf5113fa4a49ed66a432fdaa",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\ui-layout\\references\\game-ui-layout.md",
+      "sha256": "7a8d0bbe9e3c899eecbec13987e6c90ed8791ef4cfe229b13614647a85843f36",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\ui-layout\\references\\visual-effect-ui-layout.md",
+      "sha256": "04d428878e1e53a52741788a773baeb416974326bc557b555ba6c541f8ed29cf",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\skills\\xiangsu-effect-workflow\\agents\\visual-effect-planner\\template\\Draft_Template.md",
+      "sha256": "9098a321963872d47eaf2446ecf741b7f2f72279a0cb39ad0e9ee0df2d131469",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\CHANGELOG.md",
+      "sha256": "2a8f2ff6b1bb573191ab5516ddd8530b1bf24b113086d850f6d539c33723d718",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\manifest.json",
+      "sha256": "0ea3c8eac8288357accef908b5464e4f343a3bfd64273e4727ff348a4abce009",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\SKILL.md",
+      "sha256": "75061a97e3e7d206fdec87de814fb8723e4a6c016476b93d9582bb42aa1f9c93",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\VERSION",
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\references\\maintenance-policy.md",
+      "sha256": "3d036d7aea06042f7e12ecf820678875b9b1121b9a19102b72d12a4bbc2ee6a9",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\scripts\\atomic_move.ps1",
+      "sha256": "7ae1bc09fb27b78419ba87aabda94517536fed6b87346adef52c4c1f0472fdd7",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\scripts\\lifecycle.py",
+      "sha256": "0e361375ff5f41e4975619ad12cd5c6ba9a71e7211366b419f09216151b1b236",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\agents\\xiangsu-asset-master.md",
+      "sha256": "42f79b6f162ff6bc48d54502a63b5c1044b3a3311be21517814e4ca06d2cf3d4",
+      "kind": "workbuddy_role"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\agents\\xiangsu-creator.md",
+      "sha256": "83a0630c0d9f3887ee0e86f883b5e8fc01643a5c555d8ad5167601c27bd0f936",
+      "kind": "workbuddy_role"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\agents\\xiangsu-designer.md",
+      "sha256": "432d807b2908dc53beb8beac6d9dfcabf642a10946ccd4caef59b81ece51cb6d",
+      "kind": "workbuddy_role"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\agents\\xiangsu-effect-team-team-lead.md",
+      "sha256": "44208e1ffebe6489589cd09e4320592c3edf5459e3ab4ccc20a49862ea6a53be",
+      "kind": "workbuddy_role"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\agents\\xiangsu-planner.md",
+      "sha256": "1e1378efa5f4d59177c4578946eddf7023fd8a6df37d4ca9c57b4e0adecf31a4",
+      "kind": "workbuddy_role"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\agents\\xiangsu-verifier.md",
+      "sha256": "4633eff064b18cbf36c5548c0fd2deb5bd21d964522b012a8c07faab0446f330",
+      "kind": "workbuddy_role"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\plugins\\marketplaces\\my-experts\\plugins\\xiangsu-effect-team\\agents\\xiangsu-vfx-engineer.md",
+      "sha256": "e289e5e86df1f9b7c9ea60301dbcb08ee54d5c594d5ee3a25b17c7a38bc0614b",
+      "kind": "workbuddy_role"
+    }
+  ],
+  "upstream": "Local WorkBuddy snapshot; remote not checked"
+}

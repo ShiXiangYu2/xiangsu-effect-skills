@@ -1,0 +1,400 @@
+{
+  "version": 2,
+  "skills": {
+    "workflow": {
+      "EffectWorkflow": {
+        "title": "特效制作工作流",
+        "status": "stable",
+        "summary": "完整特效制作：方案确认 → 资产准备 → 场景搭建 → 脚本 → 验证",
+        "triggers": ["复杂视觉目标", "完整效果", "多系统联动"],
+        "dependencies": ["SceneEditing", "Prefab", "VFX", "MaterialAuthoring", "AssetBatchGeneration", "PreviewInteraction"],
+        "anti_patterns": ["不要跳过方案直接铺场景", "不要用 add_scene_object 替代 add_builtin_object"],
+        "priority": 10
+      },
+      "AssetWorkflow": {
+        "title": "快速资产工作流",
+        "status": "stable",
+        "summary": "仅生成或轻量挂载资产，不扩展为完整效果",
+        "triggers": ["只生成资产", "轻量挂载", "快速预览素材"],
+        "dependencies": ["SceneEditing", "ImageGeneration", "AudioGeneration", "AssetBatchGeneration"],
+        "anti_patterns": ["不要默认扩展成完整场景", "不要生成全屏背景替代局部承载"],
+        "priority": 8
+      },
+      "QuickEditWorkflow": {
+        "title": "快速编辑工作流",
+        "status": "stable",
+        "summary": "少数命令即可完成的局部修改和二次编辑",
+        "triggers": ["改参数", "改名", "调整层级", "添加简单对象", "二次编辑"],
+        "dependencies": ["SceneEditing"],
+        "anti_patterns": ["不要为小改动重建整套结构", "不要用 add_scene_object + add_component 替代 add_builtin_object"],
+        "priority": 9
+      }
+    },
+    "assets": {
+      "AssetBatchGeneration": {
+        "title": "批量资产生成",
+        "status": "experimental",
+        "summary": "批量生成图片/音频，优先子 Agent 执行，否则同步等待",
+        "triggers": ["批量出图", "批量音频", "图音混合", "多张图片", "多段音频"],
+        "dependencies": ["ImageGeneration", "AudioGeneration"],
+        "anti_patterns": ["不要拆成多次调用轮询状态"],
+        "priority": 7
+      },
+      "ImageGeneration": {
+        "title": "图片生成",
+        "status": "experimental",
+        "summary": "单张图片的 prompt 编写和 generate_image 调用",
+        "triggers": ["生成图片", "单张图", "贴图", "图标", "参考图"],
+        "dependencies": [],
+        "anti_patterns": ["不要把 prompt 拼进资产名称", "不要对功能性文字烘进图片"],
+        "priority": 6
+      },
+      "AudioGeneration": {
+        "title": "音频生成",
+        "status": "experimental",
+        "summary": "单段音频的 prompt 编写和 generate_audio 调用",
+        "triggers": ["生成音频", "音效", "BGM", "提示音"],
+        "dependencies": [],
+        "anti_patterns": ["不要为纯视觉效果生成音频"],
+        "priority": 6
+      },
+      "VFXAuthoring": {
+        "title": "VFX 制作",
+        "status": "experimental",
+        "summary": "自定义 .vfxsrc 粒子和宿主绑定",
+        "route_doc": "routing/particle-routing.md",
+        "triggers": [
+          "自定义粒子",
+          "物理粒子",
+          "碎片",
+          "碎裂",
+          "散射",
+          "堆积",
+          "重力",
+          "碰撞",
+          "反弹",
+          "debris",
+          "shatter",
+          "fracture",
+          "PhysicsMesh",
+          "StandardMesh",
+          "vfxsrc"
+        ],
+        "dependencies": [],
+        "anti_patterns": [
+          "只有原样使用内置预设时才使用 VFX",
+          "自定义物理或多阶段粒子不得用内置预设替代"
+        ],
+        "priority": 5
+      },
+      "MaterialAuthoring": {
+        "title": "材质制作",
+        "status": "experimental",
+        "summary": "自定义材质和 OMTL 制作",
+        "triggers": ["材质", "shader", "OMTL", "后处理材质"],
+        "dependencies": [],
+        "anti_patterns": ["不要对简单需求滥用自定义材质"],
+        "priority": 5
+      }
+    },
+    "ability": {
+      "VFX": {
+        "title": "VFX 预设",
+        "status": "experimental",
+        "summary": "内建粒子预设和视觉反馈",
+        "route_doc": "routing/particle-routing.md",
+        "triggers": ["粒子改样式", "现成粒子", "火花", "火焰", "雪花"],
+        "dependencies": [],
+        "anti_patterns": ["需要自定义粒子时不要用预设", "定制烟雾或氛围效果不要直接使用 Fog Particles"],
+        "priority": 6
+      },
+      "ModelImport": {
+        "title": "模型导入",
+        "status": "experimental",
+        "summary": "模型导入和放置",
+        "route_doc": "routing/model-routing.md",
+        "triggers": ["导入FBX", "导入GLB", "3D模型"],
+        "dependencies": [],
+        "anti_patterns": ["全身模型需求不要手工拼接复杂骨骼", "模型匹配度不足时不要导入"],
+        "priority": 5
+      },
+      "VisualScriptingGraph": {
+        "title": "可视化脚本图",
+        "status": "experimental",
+        "summary": "只读分析已保存的 Visual Scripting 数据",
+        "triggers": ["graph json", "compgraph", "visual scripting"],
+        "dependencies": [],
+        "anti_patterns": ["不要修改 Graph 节点和连线"],
+        "priority": 4
+      },
+      "Touch": {
+        "title": "触控",
+        "status": "experimental",
+        "summary": "APJS 触控事件处理、Image 点击检测和开拍按钮安全区",
+        "triggers": ["点击", "拖拽", "屏幕手势", "触摸", "开拍按钮遮挡"],
+        "dependencies": ["PreviewInteraction"],
+        "anti_patterns": ["不要用整屏热区替代精确点击检测"],
+        "priority": 6
+      },
+      "Camera": {
+        "title": "相机",
+        "status": "experimental",
+        "summary": "相机坐标转换、触摸空间 Y 翻转和射线生成",
+        "triggers": ["相机取景", "屏幕到世界", "世界到视口"],
+        "dependencies": [],
+        "anti_patterns": ["不要重复创建 Camera"],
+        "priority": 5
+      },
+      "Lighting": {
+        "title": "光照",
+        "status": "experimental",
+        "summary": "灯光角色分配、场景调光和预览验证",
+        "triggers": ["方向光", "点光源", "聚光灯", "环境光"],
+        "dependencies": [],
+        "anti_patterns": [],
+        "priority": 5
+      },
+      "ScreenTransform": {
+        "title": "屏幕变换",
+        "status": "experimental",
+        "summary": "2D 布局的 anchors、sizeDelta、offsets、pivot 规则",
+        "triggers": ["UI布局", "anchors", "屏幕变换"],
+        "dependencies": [],
+        "anti_patterns": ["不要保留默认整屏 sizeDelta"],
+        "priority": 5
+      },
+      "Animation": {
+        "title": "动画",
+        "status": "experimental",
+        "summary": "DeltaTime 程序动画、Animator 播放和一次态模式",
+        "triggers": ["animator", "tween", "动作反馈"],
+        "dependencies": [],
+        "anti_patterns": [],
+        "priority": 5
+      },
+      "Timing": {
+        "title": "时机",
+        "status": "experimental",
+        "summary": "提交时评分、归一化域、停止目标和蓄力释放时机",
+        "triggers": ["命中窗口", "蓄力释放", "反应时机"],
+        "dependencies": [],
+        "anti_patterns": [],
+        "priority": 5
+      },
+      "Movement": {
+        "title": "运动",
+        "status": "experimental",
+        "summary": "手动变换运动、振荡、跟随和装饰性跳跃弧线",
+        "triggers": ["手动运动", "变换移动", "振荡"],
+        "dependencies": [],
+        "anti_patterns": ["不要用 Physics 替代手动运动（除非明确需要）"],
+        "priority": 5
+      },
+      "PostProcess": {
+        "title": "后处理",
+        "status": "experimental",
+        "summary": "后处理设置检查、可空效果访问和调参",
+        "triggers": ["后处理", "屏幕效果"],
+        "dependencies": [],
+        "anti_patterns": [],
+        "priority": 5
+      },
+      "MeshRendererScript": {
+        "title": "网格渲染器脚本",
+        "status": "experimental",
+        "summary": "MeshRenderer、材质槽和运行时操控",
+        "triggers": ["网格渲染器", "mesh材质"],
+        "dependencies": [],
+        "anti_patterns": [],
+        "priority": 5
+      },
+      "SceneTraversal": {
+        "title": "场景遍历",
+        "status": "experimental",
+        "summary": "层级发现、运行时父子遍历和可见性规则",
+        "triggers": ["场景层级", "获取子节点", "树遍历"],
+        "dependencies": [],
+        "anti_patterns": [],
+        "priority": 5
+      },
+      "MP4": {
+        "title": "MP4",
+        "status": "experimental",
+        "summary": "视频资产和 MP4 纹理使用",
+        "triggers": ["视频纹理", "MP4媒体"],
+        "dependencies": [],
+        "anti_patterns": [],
+        "priority": 4
+      },
+      "HeadTracker": {
+        "title": "头部跟踪",
+        "status": "experimental",
+        "summary": "人脸锚点层级检查、挂件放置和朝向规则",
+        "triggers": ["头部锚点", "脸部挂件", "FaceMask", "HeadTracker"],
+        "dependencies": [],
+        "anti_patterns": ["不要用 2D ScreenTransform 承载跟脸元素"],
+        "priority": 6
+      },
+      "Physics2D": {
+        "title": "2D 物理",
+        "status": "experimental",
+        "summary": "2D 刚体、碰撞器和关节规则",
+        "triggers": ["2D碰撞", "2D关节", "rigidbody2d", "joint2d"],
+        "dependencies": [],
+        "anti_patterns": ["不要用 Physics 替代手动运动（除非明确需要）"],
+        "priority": 5
+      },
+      "Physics3D": {
+        "title": "3D 物理",
+        "status": "experimental",
+        "summary": "3D 刚体、碰撞器和关节的选型、连接与验证规则",
+        "triggers": ["3D碰撞", "3D关节", "rigidbody", "collider", "PointJoint", "HingeJoint", "SpringJoint", "FixedJoint"],
+        "dependencies": [],
+        "anti_patterns": [],
+        "priority": 5
+      },
+      "Audio": {
+        "title": "音频",
+        "status": "experimental",
+        "summary": "AudioComponent 播放、BGM/SFX 接线和日志优先验收",
+        "triggers": ["BGM", "SFX", "音频组件", "播放音效"],
+        "dependencies": [],
+        "anti_patterns": ["不要无音频需求时创建 AudioPlayer"],
+        "priority": 6
+      },
+      "UIPatterns": {
+        "title": "UI 布局模式",
+        "status": "experimental",
+        "summary": "按钮、HUD、进度条、弹窗、网格等高层 UI 组合模式及渲染顺序规则",
+        "triggers": ["按钮", "HUD", "进度条", "弹窗", "对话框", "网格布局", "UI布局", "界面"],
+        "dependencies": ["ScreenTransform", "Touch"],
+        "anti_patterns": ["不要把文字和背景 Image 设为兄弟节点", "不要忘记设置 sizeDelta"],
+        "priority": 7
+      }
+    },
+    "general": {
+      "SceneEditing": {
+        "title": "场景编辑",
+        "status": "stable",
+        "summary": "edit_by_dsl 场景对象、组件、资源、Prefab、材质、VFX source 和脚本注册编辑规则",
+        "triggers": ["edit_by_dsl", "场景编辑", "组件绑定", "资源绑定", "set_component", "import_resource"],
+        "dependencies": [],
+        "anti_patterns": ["不要用 query_knowledge 读取 DSL 命令语法", "不要在失败 batch 后直接截图验收"],
+        "priority": 8
+      },
+      "Prefab": {
+        "title": "Prefab",
+        "status": "experimental",
+        "summary": "Prefab 创建、运行时实例化、对象池和 clone 兜底",
+        "triggers": ["prefab", "实例化", "对象池", "动态生成"],
+        "dependencies": ["SerializeProperty", "Lifecycle"],
+        "anti_patterns": ["不要用场景预放置替代动态实例化（除非验证失败并获用户同意）"],
+        "priority": 7
+      },
+      "PreviewInteraction": {
+        "title": "预览交互",
+        "status": "experimental",
+        "summary": "capture_preview、interact_by_dsl、快速状态跳转和开拍按钮安全区",
+        "triggers": ["预览手势", "交互验证", "开拍按钮遮挡", "安全区"],
+        "dependencies": [],
+        "anti_patterns": ["不要用 inspect 替代截图", "不要用长时间 wait 替代快速状态入口"],
+        "priority": 7
+      },
+      "ScriptDebug": {
+        "title": "脚本调试",
+        "status": "experimental",
+        "summary": "编译/运行时排查：日志 + 预览交互 + 绑定检查 + 状态观测",
+        "triggers": ["运行时日志", "调试脚本", "console日志"],
+        "dependencies": ["PreviewInteraction"],
+        "anti_patterns": ["不要用 get_script_logs 替代 run_otsc_check"],
+        "priority": 6
+      },
+      "ComponentAccess": {
+        "title": "组件访问",
+        "status": "experimental",
+        "summary": "SceneObject/组件发现和运行时 getComponent 规则",
+        "triggers": ["getComponent", "组件属性访问"],
+        "dependencies": [],
+        "anti_patterns": [],
+        "priority": 5
+      },
+      "SerializeProperty": {
+        "title": "序列化属性",
+        "status": "experimental",
+        "summary": "序列化字段绑定、资源字段和创作者调节旋钮",
+        "triggers": ["序列化字段", "脚本属性绑定", "@serializeProperty"],
+        "dependencies": [],
+        "anti_patterns": ["不要用 null 初始化序列化字段"],
+        "priority": 6
+      },
+      "API": {
+        "title": "API",
+        "status": "experimental",
+        "summary": "APJS workspace 包查询和 query_knowledge 边界",
+        "triggers": ["APJS", "类型定义", "API查询"],
+        "dependencies": [],
+        "anti_patterns": ["不要猜测 APJS API"],
+        "priority": 5
+      },
+      "Lifecycle": {
+        "title": "生命周期",
+        "status": "experimental",
+        "summary": "生命周期顺序、守卫初始化、钩子所有权和监听器清理",
+        "triggers": ["onStart", "onUpdate", "组件生命周期"],
+        "dependencies": [],
+        "anti_patterns": ["不要在 onStart 中访问 @serializeProperty 引用"],
+        "priority": 6
+      },
+      "Math": {
+        "title": "数学",
+        "status": "experimental",
+        "summary": "常用向量、四元数和变换数学",
+        "triggers": ["向量数学", "四元数", "变换数学"],
+        "dependencies": [],
+        "anti_patterns": [],
+        "priority": 5
+      }
+    }
+  },
+  "routing": {
+    "request_types": [
+      {"type": "complex_effect", "workflow": "EffectWorkflow"},
+      {"type": "asset_only", "workflow": "AssetWorkflow"},
+      {"type": "quick_edit", "workflow": "QuickEditWorkflow"}
+    ],
+    "capability_map": {
+      "particle_preset": "VFX",
+      "particle_authoring": "VFXAuthoring",
+      "material": "MaterialAuthoring",
+      "batch_assets": "AssetBatchGeneration",
+      "scene_editing": "SceneEditing",
+      "single_image": "ImageGeneration",
+      "single_audio": "AudioGeneration",
+      "prefab": "Prefab",
+      "interaction": "PreviewInteraction",
+      "script_debug": "ScriptDebug",
+      "component_access": "ComponentAccess",
+      "serialize": "SerializeProperty",
+      "lifecycle": "Lifecycle",
+      "touch": "Touch",
+      "animation": "Animation",
+      "timing": "Timing",
+      "movement": "Movement",
+      "camera": "Camera",
+      "lighting": "Lighting",
+      "screen_transform": "ScreenTransform",
+      "post_process": "PostProcess",
+      "physics_2d": "Physics2D",
+      "physics_3d": "Physics3D",
+      "audio": "Audio",
+      "video": "MP4",
+      "head_tracker": "HeadTracker",
+      "mesh_renderer": "MeshRendererScript",
+      "scene_traversal": "SceneTraversal",
+      "graph_read": "VisualScriptingGraph",
+      "api": "API",
+      "math": "Math",
+      "ui_patterns": "UIPatterns"
+    }
+  }
+}

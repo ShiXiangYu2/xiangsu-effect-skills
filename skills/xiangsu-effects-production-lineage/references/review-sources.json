@@ -1,0 +1,84 @@
+{
+  "screenshots": [
+    {
+      "id": "R1",
+      "path": "D:\\微信聊天记录\\xwechat_files\\wxid_wt3feujlfqo22_175e\\temp\\RWTemp\\2026-10\\b442564f3bbaceb613792c472e972397\\8153c4d828e2b067f9d047358794bd91.jpg",
+      "sha256": "8251727ad6d3e52e13ffb10fff01cdd1ae1ac0f93423e833e111728b4c60c39f",
+      "availability": "available",
+      "kind": "user_supplied_review_screenshot",
+      "subject": "AI 变身蜜桃乌龙妆 88613613",
+      "finding": "图标设计质量差：简单、透明底色、内置模特",
+      "observed_date": "2026-10-09",
+      "authority": "historical_case_not_complete_platform_policy"
+    },
+    {
+      "id": "R2",
+      "path": "D:\\微信聊天记录\\xwechat_files\\wxid_wt3feujlfqo22_175e\\temp\\RWTemp\\2026-10\\b442564f3bbaceb613792c472e972397\\3b0520879e18af81eb5a7be58a987515.jpg",
+      "sha256": "f9b757605398c1d4558dc85444b32d420d9d8b015715533f1fc6dfd7e8d6e8f0",
+      "availability": "available",
+      "kind": "user_supplied_review_screenshot",
+      "subject": "元气甜妹 88607144",
+      "finding": "按玩法提示无法正常使用",
+      "observed_date": "2026-10-09",
+      "authority": "historical_case_not_complete_platform_policy"
+    },
+    {
+      "id": "R3",
+      "path": "D:\\微信聊天记录\\xwechat_files\\wxid_wt3feujlfqo22_175e\\temp\\RWTemp\\2026-10\\b442564f3bbaceb613792c472e972397\\ddadd456160686e38c2fdf0acd969290.jpg",
+      "sha256": "9b03a156c3cea157a8cdd2db26433fcc9d601aaa1c6285fda623c6eca8e90853",
+      "availability": "available",
+      "kind": "user_supplied_review_screenshot",
+      "subject": "职场演技挑战 88604988",
+      "finding": "照搬模板、素材玩法同质化、图标尺寸",
+      "observed_date": "2026-10-09",
+      "authority": "historical_case_not_complete_platform_policy"
+    },
+    {
+      "id": "R4",
+      "path": "D:\\微信聊天记录\\xwechat_files\\wxid_wt3feujlfqo22_175e\\temp\\RWTemp\\2026-10\\b442564f3bbaceb613792c472e972397\\846237f0dfd24ab5b40a4f2993edfb33.jpg",
+      "sha256": "ca213981eac1f9b8840108bc498064616a680c2c13a4f5f61277116945351f6f",
+      "availability": "available",
+      "kind": "user_supplied_review_screenshot",
+      "subject": "小熊帽子 模板88347235",
+      "finding": "封面美观度差、无法实现预期效果",
+      "observed_date": "2026-10-09",
+      "authority": "historical_case_not_complete_platform_policy"
+    },
+    {
+      "id": "R5",
+      "path": "D:\\微信聊天记录\\xwechat_files\\wxid_wt3feujlfqo22_175e\\temp\\RWTemp\\2026-10\\b442564f3bbaceb613792c472e972397\\9b43e85847ee61e9e1fd3c0f3740948e.jpg",
+      "sha256": null,
+      "availability": "conversation-image-only",
+      "kind": "user_supplied_review_screenshot",
+      "subject": "霓虹呼吸边框 88547749",
+      "finding": "复审下线：名称不明、图标效果无关",
+      "observed_date": "2026-10-09",
+      "authority": "historical_case_not_complete_platform_policy"
+    },
+    {
+      "id": "R6",
+      "path": "C:\\Users\\18168\\AppData\\Local\\Temp\\codex-clipboard-f0e901f5-74ef-4c01-8814-8d9bfb5cf1fd.png",
+      "sha256": "9ee2874f16780ae8f164b3d57a550d3f16e986150571b64aea57492a9b25b617",
+      "availability": "available",
+      "kind": "user_supplied_review_screenshot",
+      "subject": "奶油双屏网纱 提交检查",
+      "finding": "相似度失败、素材原创性及完整性通过",
+      "observed_date": "2026-10-09",
+      "authority": "historical_case_not_complete_platform_policy"
+    }
+  ],
+  "session_evidence": {
+    "basis": "本会话已观察工具结果和用户纠正，不是完整聊天导出",
+    "facts": [
+      "双屏网纱相似度提示失败",
+      "月光来信点击切换及文字同步预览通过",
+      "最终脚本编译和材质编译通过",
+      "内置预览图仍不满足图标素材要求"
+    ],
+    "not_verified": [
+      "月光来信重新检测",
+      "手机实拍",
+      "审核上线"
+    ]
+  }
+}

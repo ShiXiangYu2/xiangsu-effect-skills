@@ -1,0 +1,52 @@
+Generated Mentor Skill 1.0
+==========================
+
+<generated-skill>/
+├── SKILL.md
+├── lineage_manifest.json
+├── mentor_manifest.json
+├── agents/
+│   ├── openai.yaml
+│   └── openclaw.yaml
+├── references/
+│   ├── course_package.json
+│   ├── teacher_model.json
+│   ├── capability_graph.json
+│   ├── practice_bank.json
+│   ├── assessment_bank.json
+│   ├── mentor_package.json
+│   ├── mentor_protocol.md
+│   ├── graduation_policy.json
+│   ├── mentor_readiness_audit.json
+│   ├── mentor_readiness_audit.md
+│   ├── course_digest.md
+│   ├── lesson_index.json
+│   ├── concept_glossary.md
+│   ├── evidence_map.json
+│   ├── schemas/
+│   ├── okf/
+│   └── source evidence when available
+├── scripts/
+│   ├── search_course_notes.py
+│   ├── fetch_course_evidence.py
+│   ├── initialize_apprenticeship.py
+│   ├── record_practice_episode.py
+│   ├── rebuild_mastery_state.py
+│   ├── select_next_practice.py
+│   ├── schedule_retrieval.py
+│   ├── validate_learner_state.py
+│   └── build_personal_skill_candidate.py
+└── assets/
+    ├── learning_contract.template.json
+    ├── practice_episode.template.json
+    └── graduation_report.template.md
+
+Real learner state is never stored above. The host owns:
+
+<learner-store>/apprenticeships/<mentor-package-id>/
+├── apprenticeship_state.json
+├── mastery_state.json
+├── practice_episodes.jsonl
+├── error_library.json
+├── review_queue.json
+└── personal_skill_candidates/

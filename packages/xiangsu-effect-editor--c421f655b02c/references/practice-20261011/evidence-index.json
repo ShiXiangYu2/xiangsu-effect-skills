@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-11",
+  "kind": "local_verified_practice",
+  "upstream": "No official release source for these practices; local implementation only",
+  "thread_id": "01a12818-0497-7c50-a345-11b363e06530",
+  "evidence_scope": {
+    "mooncat": "editor front/turn, compile; no phone/activity publication",
+    "shave": "confirm/cancel/restore, compile; phone-safe-area/audio unverified",
+    "spider": "original head-turn/no-face, loop video and seam frames; no mobile/IK/hair validation"
+  },
+  "files": [
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-practice-20261011-v1.3.0\\evidence\\conversation-extract.json",
+      "sha256": "2540220dcb890c9cee2d8b62a7a05936d2fa9b1b8c2707a41eec99b3a61d9a10",
+      "bytes": 31278
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-practice-20261011-v1.3.0\\evidence\\build_spider.py",
+      "sha256": "60e382d417a52375323cf782c3c64fc5863a0dba321fd4e9f5668fa87380aac3",
+      "bytes": 6469
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-practice-20261011-v1.3.0\\evidence\\SpiderCrawl.ts",
+      "sha256": "938379ffee40537cd5836e88c1e1db7bf1e1d89114074fb251831de513d6528c",
+      "bytes": 7001
+    },
+    {
+      "path": "C:\\Users\\18168\\Documents\\Codex\\2026-10-11\\sh\\outputs\\月亮打盹猫_预览.mp4",
+      "sha256": "bd735a11475452d322dda92e3e758539faeaf78143555eab4314047c3b360e5d",
+      "bytes": 4831411
+    },
+    {
+      "path": "C:\\Users\\18168\\Documents\\Codex\\2026-10-11\\sh\\outputs\\一键剃光头-预览.mp4",
+      "sha256": "9be746d7bd30da115fbf3164d186e20faae53354f838eed3a4030bfc30e6eea5",
+      "bytes": 3468374
+    },
+    {
+      "path": "C:\\Users\\18168\\Documents\\Codex\\2026-10-11\\sh\\outputs\\蜘蛛爬脸-循环加速预览.mp4",
+      "sha256": "0292a0f4b25d2203a1b573b484995a51b28e43c20188d018eb47cae93d104c30",
+      "bytes": 7724956
+    },
+    {
+      "path": "C:\\Users\\18168\\Documents\\Codex\\2026-10-11\\sh\\outputs\\蜘蛛.glb",
+      "sha256": "9d7c1816ed80ac01699f86eea17c1f828fd095d7d4c5442e0e48e0db1c669642",
+      "bytes": 661148
+    },
+    {
+      "path": "C:\\Users\\18168\\Documents\\Codex\\2026-10-11\\sh\\outputs\\蜘蛛源文件.blend",
+      "sha256": "932e5826283876a76084a21071cd8aafed23b6b9d0275328f9a1346bf3fafe85",
+      "bytes": 307504
+    },
+    {
+      "path": "C:\\Users\\18168\\Documents\\Codex\\2026-10-11\\sh\\work\\spider\\seam-contact.jpg",
+      "sha256": "fc5abe7570aa3904b1c7a5a0c1d6f718a16d1191d7b58e343743dd7611b81414",
+      "bytes": 34071
+    }
+  ]
+}

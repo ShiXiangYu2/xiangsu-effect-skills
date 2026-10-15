@@ -1,0 +1,66 @@
+{
+  "apprenticeship_mode": "none",
+  "course_name": "像塑特效制作",
+  "evidence_strategy": "standard",
+  "generated_at": "2026-10-07T23:21:49",
+  "generated_by": {
+    "id": "lineage-skill",
+    "repository": "https://github.com/JuneYaooo/lineage-skill",
+    "script": "scripts/build_course_skill.py"
+  },
+  "learner_state_strategy": "none",
+  "modes": [
+    "practitioner"
+  ],
+  "package_hashes": {
+    "course_package.json": "fd61fa8ccbf6015e76042ba8891f802b1738d82275b60bbb9d3833db255083d2"
+  },
+  "package_schemas": {
+    "assessment_bank": null,
+    "capability_graph": null,
+    "course_package": "1.0",
+    "mentor_package": null,
+    "practice_bank": null,
+    "teacher_model": null
+  },
+  "pipeline_progress_strategy": "none",
+  "progress_strategy": "none",
+  "provenance": {
+    "note": "This packaged course Skill was generated from course materials by lineage-skill.",
+    "source_package": "references/course_package.json",
+    "watermark": "lineage-skill:cognitive-apprenticeship-builder:v1.0",
+    "watermark_visibility": "manifest-only"
+  },
+  "reference_status": {
+    "case_index.json": "generated",
+    "checklists.md": "generated",
+    "concept_glossary.md": "generated-fallback",
+    "course_digest.md": "copied",
+    "course_package.json": "copied-paths-withheld",
+    "evidence_map.json": "generated",
+    "full_transcript.md": "generated-fallback",
+    "lesson_index.json": "generated",
+    "okf/": "generated 299 concepts, 0 evidence chunks",
+    "playbooks.md": "generated",
+    "quote_index.md": "generated-fallback",
+    "scripts/fetch_course_evidence.py": "copied",
+    "scripts/search_course_notes.py": "generated",
+    "study_paths.md": "generated-fallback",
+    "templates.md": "generated"
+  },
+  "roles": [
+    "practitioner"
+  ],
+  "runtime_features": {
+    "formative_questions_per_unit": 0,
+    "progressive_micro_lessons": false,
+    "question_pacing_default": "none",
+    "static_svg_explanations": false,
+    "supports_one_at_a_time": false
+  },
+  "schema_version": "1.0",
+  "scope": "single-course",
+  "skill_name": "xiangsu-effects-production-lineage",
+  "source_artifacts_included": false,
+  "source_dir": "<withheld-local-path>"
+}

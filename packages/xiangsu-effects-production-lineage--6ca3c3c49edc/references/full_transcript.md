@@ -1,0 +1,83 @@
+# 外部转写证据索引
+
+完整转写保存在本机采集目录，未打入技能包。79份非空语音证据，38个源视频无音轨；另13个未确认语音、26个转写服务未取得文本。转写术语可能误识别，请对照原视频。
+
+- 2D交互特效：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\2D交互特效_transcript.json`
+- 2D交互特效_2：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\2D交互特效_2_transcript.json`
+- 2D交互特效_3：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\2D交互特效_3_transcript.json`
+- 2D交互特效_4：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\2D交互特效_4_transcript.json`
+- 2D交互特效_5：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\2D交互特效_5_transcript.json`
+- 2D交互特效_6：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\2D交互特效_6_transcript.json`
+- 2D交互特效_7：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\2D交互特效_7_transcript.json`
+- 2D交互特效_8：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\2D交互特效_8_transcript.json`
+- 2D交互特效_9：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\2D交互特效_9_transcript.json`
+- 2D美妆滤镜形变：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\2D美妆滤镜形变_transcript.json`
+- 2D贴纸特效：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\2D贴纸特效_transcript.json`
+- 3D手部跟踪：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\3D手部跟踪_transcript.json`
+- 3D柔体：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\3D柔体_transcript.json`
+- AI 对话：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\AI 对话_transcript.json`
+- AI 对话_2：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\AI 对话_2_transcript.json`
+- AR平面跟踪进阶：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\AR平面跟踪进阶_transcript.json`
+- AR平面跟踪进阶_2：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\AR平面跟踪进阶_2_transcript.json`
+- Blender Link插件：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\Blender Link插件_transcript.json`
+- Blender Link插件_2：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\Blender Link插件_2_transcript.json`
+- Blender Link插件_3：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\Blender Link插件_3_transcript.json`
+- Photoshop Link插件：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\Photoshop Link插件_transcript.json`
+- Photoshop Link插件_2：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\Photoshop Link插件_2_transcript.json`
+- 万物声音识别：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\万物声音识别_transcript.json`
+- 万物声音识别_2：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\万物声音识别_2_transcript.json`
+- 五子棋：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\五子棋_transcript.json`
+- 前景贴纸：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\前景贴纸_transcript.json`
+- 前景贴纸_3：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\前景贴纸_3_transcript.json`
+- 动态关节_3：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\动态关节_3_transcript.json`
+- 变量：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\变量_transcript.json`
+- 变量_3：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\变量_3_transcript.json`
+- 变量_5：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\变量_5_transcript.json`
+- 变量_6：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\变量_6_transcript.json`
+- 变量_9：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\变量_9_transcript.json`
+- 变量_10：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\变量_10_transcript.json`
+- 图片：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\图片_transcript.json`
+- 头模：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\头模_transcript.json`
+- 头部跟踪：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\头部跟踪_transcript.json`
+- 头部跟踪_2：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\头部跟踪_2_transcript.json`
+- 好友头像：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\好友头像_transcript.json`
+- 好友头像轮播：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\好友头像轮播_transcript.json`
+- 屏幕划线生成碰撞体：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\屏幕划线生成碰撞体_transcript.json`
+- 屏幕画笔：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\屏幕画笔_transcript.json`
+- 屏幕画笔_2：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\屏幕画笔_2_transcript.json`
+- 抖音特效师极速入门：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\抖音特效师极速入门_transcript.json`
+- 抖音特效师极速入门_2：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\抖音特效师极速入门_2_transcript.json`
+- 抖音特效师极速入门_3：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\抖音特效师极速入门_3_transcript.json`
+- 抖音特效师极速入门_4：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\抖音特效师极速入门_4_transcript.json`
+- 抖音特效师极速入门_5：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\抖音特效师极速入门_5_transcript.json`
+- 抖音特效师极速入门_6：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\抖音特效师极速入门_6_transcript.json`
+- 抖音特效师极速入门_7：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\抖音特效师极速入门_7_transcript.json`
+- 拖拽屏幕旋转3D模型：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\拖拽屏幕旋转3D模型_transcript.json`
+- 推箱子：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\推箱子_transcript.json`
+- 整体介绍_3：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\整体介绍_3_transcript.json`
+- 文字：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\文字_transcript.json`
+- 新版缓动动画组件：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\新版缓动动画组件_transcript.json`
+- 案例：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\案例_transcript.json`
+- 滑动X轴移动：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\滑动X轴移动_transcript.json`
+- 点击屏幕Y轴方向下落：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\点击屏幕Y轴方向下落_transcript.json`
+- 物理关节_2：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\物理关节_2_transcript.json`
+- 物理关节_5：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\物理关节_5_transcript.json`
+- 物理关节_7：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\物理关节_7_transcript.json`
+- 物理关节_8：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\物理关节_8_transcript.json`
+- 继承数据：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\继承数据_transcript.json`
+- 绿幕图片_2：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\绿幕图片_2_transcript.json`
+- 绿幕视频：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\绿幕视频_transcript.json`
+- 自定义组件：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\自定义组件_transcript.json`
+- 自定义组件_3：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\自定义组件_3_transcript.json`
+- 自定义组件_4：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\自定义组件_4_transcript.json`
+- 自定义组件_5：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\自定义组件_5_transcript.json`
+- 自定义组件_6：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\自定义组件_6_transcript.json`
+- 自定义组件_7：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\自定义组件_7_transcript.json`
+- 自定义组件_8：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\自定义组件_8_transcript.json`
+- 自定义组件_9：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\自定义组件_9_transcript.json`
+- 自定义组件_10：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\自定义组件_10_transcript.json`
+- 触发条件：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\触发条件_transcript.json`
+- 设置个人、团队排行榜数据_2：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\设置个人、团队排行榜数据_2_transcript.json`
+- 象棋：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\象棋_transcript.json`
+- 预制件：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\预制件_transcript.json`
+- 黄金矿工：`C:\Users\18168\.agents\artifacts\xiangsu-learning-20261007\capture\transcripts\黄金矿工_transcript.json`

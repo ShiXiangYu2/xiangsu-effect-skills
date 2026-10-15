@@ -1,0 +1,166 @@
+{
+  "name": "xiangsu-effect-editor",
+  "version": "1.3.0",
+  "status": "validated_candidate",
+  "require_human_approval": true,
+  "recursive_deletion": false,
+  "sources": [
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\CHANGELOG.md",
+      "sha256": "f319ff16217cfdfbad72f77902c542172a776443ca6a52c431fd115b01f8a83e",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\manifest.json",
+      "sha256": "e1aad18eb42c8fd4ad8de35181d9031f7316588c7ab0e755f39314b875534739",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\SKILL.md",
+      "sha256": "c8a2b58eb2efedb61e5772491881a28210f83e06f9c2f86c9e11e48089e5de32",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\VERSION",
+      "sha256": "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\references\\case-studies.md",
+      "sha256": "641cefc81d750dffea1876bf64513aafe081732fb16eecc672b3f7e0993f6341",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\references\\maintenance-policy.md",
+      "sha256": "3d036d7aea06042f7e12ecf820678875b9b1121b9a19102b72d12a4bbc2ee6a9",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\references\\reskin-playbook.md",
+      "sha256": "67f1410fddfa25e8ed9f8561c28c35d046ed11900b9154a6345c3815948470d7",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\references\\rpc-fallback.md",
+      "sha256": "1bcf42b6e50539c81e4efee80a217bbcce1eafa4bfe3c274ceb23ab1c1ec786e",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\scripts\\atomic_move.ps1",
+      "sha256": "7ae1bc09fb27b78419ba87aabda94517536fed6b87346adef52c4c1f0472fdd7",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\scripts\\crop_regions.py",
+      "sha256": "0b6b15ce55f6456b4a6614437ae2052468efb4dfc51e444530396d981766fc79",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\scripts\\lifecycle.py",
+      "sha256": "0d087a76cb2cd0a3d77e6ff745f90ad5aceb8082dff44e226b031ca7d55c1da3",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.workbuddy\\skills\\xiangsu-effect-editor\\scripts\\uv_recolor.py",
+      "sha256": "f43b908566844cee6a5ca7a9bef51f1caf15ff540b5be3e23f4992b4f4f55b1f",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\CHANGELOG.md",
+      "sha256": "2a8f2ff6b1bb573191ab5516ddd8530b1bf24b113086d850f6d539c33723d718",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\manifest.json",
+      "sha256": "0ea3c8eac8288357accef908b5464e4f343a3bfd64273e4727ff348a4abce009",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\SKILL.md",
+      "sha256": "75061a97e3e7d206fdec87de814fb8723e4a6c016476b93d9582bb42aa1f9c93",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\VERSION",
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\references\\maintenance-policy.md",
+      "sha256": "3d036d7aea06042f7e12ecf820678875b9b1121b9a19102b72d12a4bbc2ee6a9",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\scripts\\atomic_move.ps1",
+      "sha256": "7ae1bc09fb27b78419ba87aabda94517536fed6b87346adef52c4c1f0472fdd7",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\scripts\\lifecycle.py",
+      "sha256": "0e361375ff5f41e4975619ad12cd5c6ba9a71e7211366b419f09216151b1b236",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.codex\\skills\\xiangsu-effect-editor\\manifest.json",
+      "sha256": "927a1ab053eb9cee86c2f17cca127fdc42ccd00c0c0ba9d9abb58714e84ecee9",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.codex\\skills\\xiangsu-effect-editor\\SKILL.md",
+      "sha256": "337af2d45be8a82611f72b0fdca4c3b0f0cf673a9b9eab2c6045c2ceba9097fd",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.codex\\skills\\xiangsu-effect-editor\\VERSION",
+      "sha256": "44e161e4495cac2cf7858043e9e6418e9579f0ddcfae826f9a372622968ce066",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.codex\\skills\\xiangsu-effect-editor\\references\\maintenance-policy.md",
+      "sha256": "3d036d7aea06042f7e12ecf820678875b9b1121b9a19102b72d12a4bbc2ee6a9",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.codex\\skills\\xiangsu-effect-editor\\references\\optimization-evidence.md",
+      "sha256": "d282f36866a0c33c503746929c46f4412b710a4a5ddb7bbf8e0063ab60fef7d9",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.codex\\skills\\xiangsu-effect-editor\\references\\review-routing.md",
+      "sha256": "76c806b4956f64f35b101c7e91350a0e59c9d2d9c9725ae035525c56bffbbee9",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.codex\\skills\\xiangsu-effect-editor\\scripts\\atomic_move.ps1",
+      "sha256": "7ae1bc09fb27b78419ba87aabda94517536fed6b87346adef52c4c1f0472fdd7",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.codex\\skills\\xiangsu-effect-editor\\scripts\\lifecycle.py",
+      "sha256": "0e361375ff5f41e4975619ad12cd5c6ba9a71e7211366b419f09216151b1b236",
+      "kind": "local_migration_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-skill-update-20261011\\baseline\\SKILL.md",
+      "sha256": "ea47a0d4b621451f88c38743706d88690ebf94e1e90bcda79eab6d077488e51b",
+      "kind": "local_practice_evidence"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-skill-update-20261011\\evidence\\production-record.md",
+      "sha256": "6cd46f736c1366ce0e079d32a78fba453d5935716ca29e7117839bdc951452f3",
+      "kind": "local_practice_evidence"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-skill-update-20261011\\evidence\\user-feedback.md",
+      "sha256": "46ec588c267bd725e688c98c35ec3302015f712e61f82256c50d76241a56dc81",
+      "kind": "local_practice_evidence"
+    }
+  ],
+  "upstream": "Local WorkBuddy snapshot; remote not checked",
+  "local_iteration": {
+    "scope": "AI swipe local practice and user-feedback regression checks",
+    "remote_source": "No new upstream release claimed; local implementation evidence only",
+    "source_drift_report": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-skill-update-20261011\\source-check.json",
+    "review_required": true
+  }
+}

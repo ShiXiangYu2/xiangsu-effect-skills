@@ -1,0 +1,30 @@
+{
+  "name": "xiangsu-effect-editor",
+  "version": "1.0.0",
+  "status": "validated_candidate",
+  "require_human_approval": true,
+  "recursive_deletion": false,
+  "sources": [
+    {
+      "path": "C:\\Users\\18168\\AppData\\Local\\Douyin AR\\Resources\\BuiltinResource\\McpTool\\resources\\install-bundle\\skills\\xiangsu-effect-editor\\SKILL.md",
+      "sha256": "f351cfacc22b65eb807b84d014b03667e7790e5b0de321b111f0dfe3d2d10b60",
+      "kind": "official_local_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\scripts\\lifecycle.py",
+      "sha256": "0e361375ff5f41e4975619ad12cd5c6ba9a71e7211366b419f09216151b1b236",
+      "kind": "governance_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\scripts\\atomic_move.ps1",
+      "sha256": "7ae1bc09fb27b78419ba87aabda94517536fed6b87346adef52c4c1f0472fdd7",
+      "kind": "governance_source"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\SKILL.md",
+      "sha256": "75061a97e3e7d206fdec87de814fb8723e4a6c016476b93d9582bb42aa1f9c93",
+      "kind": "governance_source"
+    }
+  ],
+  "adaptation": "Official instructions preserved; version moved to metadata and user-required source maintenance added."
+}

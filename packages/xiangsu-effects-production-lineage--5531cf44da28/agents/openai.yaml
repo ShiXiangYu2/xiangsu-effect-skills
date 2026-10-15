@@ -1,0 +1,7 @@
+interface:
+  display_name: "像塑特效制作 Course Skill"
+  short_description: "Source-grounded cognitive apprenticeship and course evidence."
+  default_prompt: "Use $xiangsu-effects-production-lineage to help me form an independent capability from 像塑特效制作 through source-grounded practice, feedback, retrieval, and transfer."
+
+policy:
+  allow_implicit_invocation: true

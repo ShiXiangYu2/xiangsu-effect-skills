@@ -1,0 +1,866 @@
+{
+  "name": "xiangsu-effects-production-lineage",
+  "version": "1.1.0",
+  "status": "validated_candidate",
+  "require_human_approval": true,
+  "recursive_deletion": false,
+  "sources": [
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\2D交互特效 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).txt",
+      "sha256": "d8d64bdc97f04e6d76b85b195de842582ae2dc1a1b1095baa8d65a56c453a061",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\2D交互特效 - 像塑工具文档 - 像塑桌面版 外部文档空间 (2).txt",
+      "sha256": "1581c1f4bdff7ec42f94b9d6ad0d6e3ae8b5cf34b86dbe02c5d9ff7c978ce392",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\2D交互特效 - 像塑工具文档 - 像塑桌面版 外部文档空间-1 (1).txt",
+      "sha256": "e398f2d0473493de240bea91fb4007ae7756a46a2fe6ccc0be1f5d2c6a095dc3",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\2D交互特效 - 像塑工具文档 - 像塑桌面版 外部文档空间-1 (2).txt",
+      "sha256": "76701b2aa0c3d1eb4c97a6753f4e394fb920d3c35983db7bb22b711f3fb53aee",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\2D交互特效 - 像塑工具文档 - 像塑桌面版 外部文档空间-1 (3).txt",
+      "sha256": "a3b9db9955877f9ee224448779b68a06daa56b67a043d488f257a29fbac57b75",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\2D交互特效 - 像塑工具文档 - 像塑桌面版 外部文档空间-1 (4).txt",
+      "sha256": "1db2ddf1faee1cd77f987ad36d58bee0e4e2ba045a26c127cc44eba96f2b2af2",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\2D交互特效 - 像塑工具文档 - 像塑桌面版 外部文档空间-1 (5).txt",
+      "sha256": "d9f63fc5f0228a4af12e11721c43e9fc3b0184b5a1972e18f7f29ee10131f3eb",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\2D交互特效 - 像塑工具文档 - 像塑桌面版 外部文档空间-1.mp4",
+      "sha256": "30ba5f9fb2a1cd764a520fc25ea8084ac20e2fadcbbf8af44239da42c3e7d6da",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\2D交互特效 - 像塑工具文档 - 像塑桌面版 外部文档空间-1.txt",
+      "sha256": "1f28e026b7bdeaf02c256bf640123faa5d20f0927ba05431f817419ef1b73101",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\2D交互特效 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "df091c255b137e2e145300dca04299ae0fa1301b6c22c2816ab4b3be280aeb9f",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\2D美妆滤镜形变 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "2d901cb50704d269385df3f24d76a050f42aa7af4aa3e7db0bfe02df7cba730e",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\2D贴纸特效 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "29cdf9e947e982cebaa40c9a4a52e2a29bc51f267bec48b633c614696d250198",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\360度手柄 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "e4eee12050a6e2cafab711c7014a8a5b72baf30d81536e98b3031c3f886e6704",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D 高斯能力 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).txt",
+      "sha256": "f595589690c571b744fe6f198b02a65c7e5bd2bcdd6c31436636856204b4ee20",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D 高斯能力 - 像塑工具文档 - 像塑桌面版 外部文档空间-1.txt",
+      "sha256": "19873c29afc672fa4bd51302cd04f7fc3563cdcf239dccb35578011d1ad0e211",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D 高斯能力 - 像塑工具文档 - 像塑桌面版 外部文档空间.txt",
+      "sha256": "39084edf768aa209c347e8f00096e02081977027e73b93b288ccd4e31cad7024",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D手部跟踪 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "70b66d059043984dccf2e97e83429070c592ac04455443629288c947f79a1dcd",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D手部跟踪 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "d10f13532c971687f3bca9103e1b19d6efcee81b9a8b04cf661032ef625ae9f9",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D柔体 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "ff20e4acd88395211463a15766a6deda2929fec48899df6d33a369651c3e5a3b",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D柔体 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "80c7595666ad1d3a4723428b2084834df4f3109b251f2226982fbf6a12e428c4",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D眼球 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).txt",
+      "sha256": "26fa1ddf2dc79d0fc961d48b6dca83f5bdc68bd45a3938de6032e43bdac45344",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D眼球 - 像塑工具文档 - 像塑桌面版 外部文档空间 (3).txt",
+      "sha256": "8b5a11303553d9c6f97464964741576914a9d90563201aa86a788edf461bccb4",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D眼球 - 像塑工具文档 - 像塑桌面版 外部文档空间 (4).txt",
+      "sha256": "0401fbffdd4092c792e9c76c4f6189e3294511f4940b117bcb42b34fa3d01156",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D眼球 - 像塑工具文档 - 像塑桌面版 外部文档空间.txt",
+      "sha256": "1d9b25255a42ac351f5db72947182a7606e1fbdd9e850e14c1e4ba3d1f99faa1",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D睫毛 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "b7dd4ae5414f193e0fce3eaf92d4fa9a3dbf51ff268bc4ddc277fabdb15ad07f",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D睫毛 - 像塑工具文档 - 像塑桌面版 外部文档空间 (10).mp4",
+      "sha256": "c671be324ca4a5c9463e21d786e249c6b05e714c5c9722cdea6e5b290d8833ba",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D睫毛 - 像塑工具文档 - 像塑桌面版 外部文档空间 (3).mp4",
+      "sha256": "510274335b7993f459191adf4ded3c50942c9218ba9ceb566de77727ed740b06",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D睫毛 - 像塑工具文档 - 像塑桌面版 外部文档空间 (4).mp4",
+      "sha256": "ceb2b59ac8d78312b9a2754475e42fefb638499cb06c320927b5ec6756b555f7",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D睫毛 - 像塑工具文档 - 像塑桌面版 外部文档空间 (5).mp4",
+      "sha256": "102f1c977e3ebbac06dce9965fae315cf3d1091db506978e93328c9d90981254",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D睫毛 - 像塑工具文档 - 像塑桌面版 外部文档空间 (6).mp4",
+      "sha256": "7f1d75b377146c1bef8f04d0af5a0dd974a9f6c1f631ef0dac097f66f8a48d57",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D睫毛 - 像塑工具文档 - 像塑桌面版 外部文档空间 (7).mp4",
+      "sha256": "76ebf74cf021ef99851c17ea909915af9a812a43137657b23e22c53efbd94741",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D睫毛 - 像塑工具文档 - 像塑桌面版 外部文档空间 (8).mp4",
+      "sha256": "f00a24d4728f93f68d61a04b52973ecd17036aec3bedb7c58083d9e50437a175",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D睫毛 - 像塑工具文档 - 像塑桌面版 外部文档空间 (9).mp4",
+      "sha256": "b75673ae02a22e94b7692da0d39ea8f23c54baff4585a543ce684d0e76bae5a7",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D睫毛 - 像塑工具文档 - 像塑桌面版 外部文档空间-1.mp4",
+      "sha256": "eb9a658fd778e6ab3dd26c8c700ed07cb5bacd3edd52c9f3cf6cf550c69ed7e2",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\3D面具 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "0e771cd02a2675298f0c41204663ed6b14979e06e6ffcdcb58ecc5f91939529f",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\After Effects 资源导入 & 插件使用介绍 - 像塑工具文档 - 像塑桌面版 外部文档空间",
+      "sha256": "289eed97ef26dce3bfcf3e0eac12028ca133fdbd4908bb5835208e17a19541a8",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\AI 对话 - 像塑工具文档 - 像塑桌面版 外部文档空间",
+      "sha256": "e7be715cde45d033b1dfbbde8af915927399ca773ad6c14a48621dfcbf865928",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\AI 对话 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "623581b2f0b9a27675e38b27a3453fdd0d07919f68f1611ba3582965b65e4128",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\AR平面跟踪进阶 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "808ffd4ab6f076e40b241a7de41ca9ecb0e4913874b8e8dc07e3df6437ec6b8a",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\AR平面跟踪进阶 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "290ad85496c38807cf4e69893fa787cf484ca90a739500f77f7a922757b691c4",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\Blender Link插件 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "7dfe40ee137996a7793694e0e3aabd858de2b1e1c32b09e8ee19ddf3cb1faa0a",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\Blender Link插件 - 像塑工具文档 - 像塑桌面版 外部文档空间 (2).mp4",
+      "sha256": "83ae882b91f609e5227265b29b2634f53f7ddf818a12272f14bf87890f52f1d7",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\Blender Link插件 - 像塑工具文档 - 像塑桌面版 外部文档空间 (4).mp4",
+      "sha256": "560b046d5550662ac711ce1f30e311f6d595b40d04d4e8cd322ba6ed2d9ca79e",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\K 歌 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "c5151170680962d0a93b5e046f1bd05a8f318dd227dc2d4c76b08c730bceb897",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\Photoshop Link插件 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "b686a030e6f6f62bd0153b8641cc767e578c494474f609ccb7f93c07a0e9230b",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\Photoshop Link插件 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "30fed3d29e7d77ddb5d3701cc884863a67022175a2101bb10bcd9d627a91b2fa",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\万物声音识别 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "e39950902a7ab603cf80c382ccffb706dc3e83063fd013389527af9bea4c4f19",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\万物声音识别 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "2f16a020d403caa398dbdc48d7579fe30ee40db1b26e4311b3b40968de1a45c2",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\两点画矩形 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "04e982f77a3879955061b526abac68b4a5363731e85a1c07f962fa8ec095cb3f",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\五子棋 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "2cf18628fae514a9bd49e9c8dcad67818650dcf8d31f786040631d6b88158466",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\人体识别节点 - 像塑工具文档 - 像塑桌面版 外部文档空间 (4).mp4",
+      "sha256": "7959b1f5a43b3432d385c03d596520f6733ff8c7b5ebb2012d0f4c09feac0cb8",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\前景贴纸 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "9baaef61af5c8d625e67be563ed1a788a12d3ba560de8e23447df17bb8d61099",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\前景贴纸 - 像塑工具文档 - 像塑桌面版 外部文档空间 (2).mp4",
+      "sha256": "a0171cc17206e55d5f7b3c4723d6db7da747a0b641f273853503f0eaaf520fde",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\前景贴纸 - 像塑工具文档 - 像塑桌面版 外部文档空间-1 (1).mp4",
+      "sha256": "db82238fbf331cd255522cac6a7a730d6d0404b940e62c43cb955b4a5dd98daf",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\前景贴纸 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "0ac8c20a33dbc9ea88b13c4211be5b8c323299ed9b5aa90518ca7bff9f20fdd7",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\动态关节 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "079e3d4a435e209e165ccf20ecf0f40f1ae3c5d1727c0215e05ae008e485849d",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\动态关节 - 像塑工具文档 - 像塑桌面版 外部文档空间 (2).mp4",
+      "sha256": "e7be476ae8efd52272b1b09cd12ebc870e03a80d704428a892ff8ab3732c2f37",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\动态关节 - 像塑工具文档 - 像塑桌面版 外部文档空间 (3).mp4",
+      "sha256": "d1241e7acbb8a88b6c5e8a0bf62d6198a7d43c10479c9047d1d7d8270f98106f",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\动态关节 - 像塑工具文档 - 像塑桌面版 外部文档空间 (4).mp4",
+      "sha256": "26a89f902c30662b4a5e13c16d2eb45e405d8edeefa38cf7b4f62e11cb2a538d",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\动态关节 - 像塑工具文档 - 像塑桌面版 外部文档空间 (8).mp4",
+      "sha256": "5d1bafac411da86ce05f2404c19ae4305314702bcf02ac5ac0eecfee913b2c9b",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\变量 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "890f4a78e14b13819e53775189e3fa8711299cd32cfa7a9a915b838a51f3be0f",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\变量 - 像塑工具文档 - 像塑桌面版 外部文档空间 (10).mp4",
+      "sha256": "533181bb0abeb84cf013907e2bd50257c412019a9700662e657453ddb577047c",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\变量 - 像塑工具文档 - 像塑桌面版 外部文档空间 (2).mp4",
+      "sha256": "8edfbd414ade41e754e63f69e7b5d7fad6941ee560d6de7243990e0fc9d46f12",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\变量 - 像塑工具文档 - 像塑桌面版 外部文档空间 (3).mp4",
+      "sha256": "5581dfb015ea3ef1ac9ed1171deef27a2e781e1980d8d585232bc23b85259301",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\变量 - 像塑工具文档 - 像塑桌面版 外部文档空间 (4).mp4",
+      "sha256": "f10e7828dc8275b5887abf77ebe1717d8ea65c0e145a9402e0f786d227bb969c",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\变量 - 像塑工具文档 - 像塑桌面版 外部文档空间 (5).mp4",
+      "sha256": "b59f78cebe145099fec7bb8c8885771c4ab6ac17ff8c0acf139a28fb10f55722",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\变量 - 像塑工具文档 - 像塑桌面版 外部文档空间 (6).mp4",
+      "sha256": "94d8a5ae2bcad3f24acd52203aadc70e1b7374f12dd85860477fbd863419e609",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\变量 - 像塑工具文档 - 像塑桌面版 外部文档空间 (7).mp4",
+      "sha256": "7a44f5831e4185910d130a08ab3c46059c090997b145dcb116ad72012f5514b6",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\变量 - 像塑工具文档 - 像塑桌面版 外部文档空间 (8).mp4",
+      "sha256": "c981680fcb963fb3cac6566e491e0508a6922d08692b4b0536003ddd44ef9cec",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\变量 - 像塑工具文档 - 像塑桌面版 外部文档空间 (9).mp4",
+      "sha256": "3f1e7137659a33db4930d21f73f432a7dee8de3ee6bb5f00eb7107f9bf299212",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\变量 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "55972c7c37d6dc2ba6070214b1b19b893789e80d76e3d937b5340d08224807c1",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\向量角度 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "e77ff90f30531a22b4c6f4cc09c2334b5353047ced0af81cfdca760225a99bea",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\图片 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "335bd0cffe30055c4582a7611d00dc667ae3e2b22adb198086a4c638d84b1c3f",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\图片跟踪 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "9465ceb691f9502756c1b4b43a99768fd93cc0733233726821eb930f1d89c7a9",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\图片跟踪 - 像塑工具文档 - 像塑桌面版 外部文档空间-1.mp4",
+      "sha256": "2fffc3ec220a552d35e631d1f0e83aa5345417b029541576b2092b8e0663be59",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\图片跟踪 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "ca491b2473cd296a0d5b45a8808ead3e5568c34d03fadc82d0cd5f22ffef9cbe",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\在圆中 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "7660bab8365541e2b3852f4173f111831b74ae49f7f25187ac614718f4a3fad2",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\头模 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "c81c0714f1e3ca4c314164dfd9e5f473997c2f5bdea4ccab5121c2771b7e9f71",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\头部抠图 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "8f417b1517980caa9465572a27484fd1b035272cec29eef23ecfe475d721943d",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\头部跟踪 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "ab34a3e57743c510ee20b9fcc436667b784e2befe79dd6c7d9393a664ede1f88",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\头部跟踪 - 像塑工具文档 - 像塑桌面版 外部文档空间 (2).mp4",
+      "sha256": "53f7699a9357ce279d856fb88313b54a679be0fa4dcca97d429b9ab70d8198ab",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\好友头像 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "66ebda0abcb76e4f99ebca4e8f316e60c4dd25637a50d5c560a9aa5e3bf75b36",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\好友头像轮播 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "2b30aeed5e987b48b8d75548ef7a29cc5310acd1ee0e4e7ff44356b5a399bf9f",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\宠物面部贴纸 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "894e535f7ce96feedd99d5e5e38057117743d642f4cc620741bc6bd120925a09",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\屏幕划线生成碰撞体 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "857dce230dfeb76e2dc167d9113e070825e016053b429013ef5b1c9316cfd9d9",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\屏幕划线生成碰撞体 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "c04e6ff1e86af566542440aaa319a34a8ef70c61966a6bf9d6ce03500797b934",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\屏幕画笔 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "80371c1a396b3789e992e4b5d0bd7dba91b378362753c6d309e3b55ef7d68a33",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\屏幕画笔 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "6f35189e48ee264f4886faa0cf6180e3ec7b85b36c0da8f8cd1811ff38730682",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\抖音特效师极速入门 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "628a10e0baa990d30f49c41b41a41c7e9545773ae72bb55220b6869a08415faa",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\抖音特效师极速入门 - 像塑工具文档 - 像塑桌面版 外部文档空间 (2).mp4",
+      "sha256": "b7e12a3438edcba1988b3a65f024b251ab5af8d9ae7efb45e7f882951017195a",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\抖音特效师极速入门 - 像塑工具文档 - 像塑桌面版 外部文档空间-1 (1).mp4",
+      "sha256": "71c8e7637e6933de74d44ee341d36e521233600865afbefd614a5b758b8546bf",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\抖音特效师极速入门 - 像塑工具文档 - 像塑桌面版 外部文档空间-1.mp4",
+      "sha256": "2a4e1f39a1cbefd99b3a1e7d6e2168773c81af3313fddb9ac1b9325d495f1d3a",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\抖音特效师极速入门 - 像塑工具文档 - 像塑桌面版 外部文档空间-2.mp4",
+      "sha256": "78cfa6b26867168af0cd12d90a6dee3b9d64fe114be0a143fd27fd5e34a22919",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\抖音特效师极速入门 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "22d557b2bc3c3e6731d46a6b401a6483cac7572befb1710aa6a0275d057cd868",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\抖音特效师极速入门 - 像塑工具文档 - 像塑桌面版 外部文档空间.txt",
+      "sha256": "9981d248dc613552f0a1c0c9c6fd99043e1072cd1c86393df0d1ee36c5073f6c",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\拖拽屏幕旋转3D模型 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "238c58c7278bc9299ab682e6720e10b3b833391eb31b4842a5e2226af6948234",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\推箱子 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "e7c00d6c44d216670f3937fa794e71d32e4333fd25975e7dd1b16915133d0520",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\整体介绍 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "16fd8c59615e9501bc45044b095fd37710c1731f7adf27c51d20eb34dbd67270",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\整体介绍 - 像塑工具文档 - 像塑桌面版 外部文档空间 (2).mp4",
+      "sha256": "e087153eb88bc42efbb2f04a8c122d9443d47b99959e109b21f22b1dc5a1d900",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\整体介绍 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "99faf36d92f6ef4f3f58775315d57c5fee9bb8d83e1fcb9e3d5776d324a15f18",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\文字 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "f0b7c97d5d736b328b6af5bfaf883be54b6efc9f8e1eee350ac3563e5d099d1d",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\新版缓动动画组件 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "9ffcc26c48be638dc1e7e36d9794adf2b1d574f87861d19b4398bf031fe8a683",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\旋转圆形图片 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "869d5ec334db6f3057153f0d84c84005cf7a233abd2a394dac206b11d9fbda19",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\案例 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "788fe24064ee55861ba198f21d76d005782220fe9ace067bf14f7562b5ed8689",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\案例 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "304f2c18f302e4ad67dc12b4a67f01f3dc7eb60656fa4147769a37fd7a09f5a0",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\滑动X轴移动 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "36b1157101efea42231aecae959c8965e39f1f23ddbd8d627e8da0db5eb85e3c",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\滤镜 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "40259bcf594342df0842a2533bfd7bb7aa17cb5831df7c15c112d3f88fa13183",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\点击屏幕Y轴方向下落 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "5abfc1dc12f00d64da2434d8a2543d9c8b9ce7dac538b172acf767a17c25676a",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\点旋转和平移后的坐标 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "af3801ca26e646153b3d089f2e7daaee855b2805691c3d4fd6a00b0946486c34",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\物理关节 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "0dd2707d180f39adceb86e7142453dd5f2bd8d13a3b68839f3f7d3f871dbe83d",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\物理关节 - 像塑工具文档 - 像塑桌面版 外部文档空间 (2).mp4",
+      "sha256": "a15659574679ab26c32a511524e80098f93a3dc1b3c768f13774aee88461f08e",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\物理关节 - 像塑工具文档 - 像塑桌面版 外部文档空间 (3).mp4",
+      "sha256": "64f80548304361c283b0a1862ed7cd55e20b6c6e2fc5dd7b3246c941b4975750",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\物理关节 - 像塑工具文档 - 像塑桌面版 外部文档空间 (4).mp4",
+      "sha256": "38fce6ecfdf56de32cdaddd0c5823320081e9d7956da678c21e6f2405d148cc8",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\物理关节 - 像塑工具文档 - 像塑桌面版 外部文档空间 (5).mp4",
+      "sha256": "29a3c49adc53b8970658a218710b9f9ffe302e1efc745e0a5dd7104f98f562dc",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\物理关节 - 像塑工具文档 - 像塑桌面版 外部文档空间 (6).mp4",
+      "sha256": "bc287bc345e534051dbdf9514512b91c030a77a587f5878e559a6371ccc3e60f",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\物理关节 - 像塑工具文档 - 像塑桌面版 外部文档空间 (7).mp4",
+      "sha256": "83967f8b4b6aa20868a4b3a10f50856578a1654fccbaf35d398b6e12a2fe6696",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\物理关节 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "ad01e2122c4ab39b9fb6e73c2481ccff12ba030e3463f5e7ee796b70e2d6d8bb",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\素材上传规范须知 - 像塑工具文档 - 像塑桌面版 外部文档空间",
+      "sha256": "c88a7c99079ca7a5aac651b65f9b4bb21b6402b42247896a67e8a91c22ed7d18",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\素材上传规范须知 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1)",
+      "sha256": "4096ab40895c63267d9f1a4851f3374f28205d19067fb030c3c263cc2d8f86b7",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\素材上传规范须知 - 像塑工具文档 - 像塑桌面版 外部文档空间 (2)",
+      "sha256": "f06f04209ac0a08e5b362930e9734266dbfc6cd280e008975168649daa331fb7",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\素材上传规范须知 - 像塑工具文档 - 像塑桌面版 外部文档空间 (3)",
+      "sha256": "8dfe7b8fa431275275712a4a52e83b8501f6729843d1a8b318316bd332017600",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\素材上传规范须知 - 像塑工具文档 - 像塑桌面版 外部文档空间 (4)",
+      "sha256": "1e5c9d48e69b8a36cfc9950ac2c7e36dddaf3432678e42f78265db42a9367465",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\素材上传规范须知 - 像塑工具文档 - 像塑桌面版 外部文档空间 (5)",
+      "sha256": "bd1c32859151eea1a2c72c365eea86b97b58d99d50f5bcdccc7aa41872c0b531",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\素材上传规范须知 - 像塑工具文档 - 像塑桌面版 外部文档空间 (6)",
+      "sha256": "a01169bb0c3a5fbcfd14578dc1e5ce3fd76770a96d2e0ba9b6f77b3e4b78b79a",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\素材上传规范须知 - 像塑工具文档 - 像塑桌面版 外部文档空间 (7)",
+      "sha256": "2eec35af05b591560ece7198afa171717e8d74ef49f624b1bdab405e248b40be",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\素材上传规范须知 - 像塑工具文档 - 像塑桌面版 外部文档空间 (8)",
+      "sha256": "1d6505c1d9434e7f152eb7051c28137638689871be9fcccbd136f6dd7ef4eb14",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\素材上传规范须知 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "2ec5088b6e150f9f5d1b1e46d687e209b61d4e69b7dbb2550b9d685b5c6910a2",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\继承数据 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "dabd947f2f05962cd554d0855d457e0748f555812dfa86e0cabd28377394fb3a",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\绿幕图片 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "d220cee9aaacb96a71a7bd0aafdb6608584ba11fb402fbec6c22b5169afd8cc5",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\绿幕图片 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "785b82681c9e763f1acb3a7c4d043f362e3364133ac051a9cba3743762753cd9",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\绿幕视频 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "8e93ae6359d9027d664302b54d68e821789442f1f971e01c5a75a998d1a4b749",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\脸部液化形变 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "bc932eedaf6e2ace37dff175654a7ee2555b64c353c91e7f623d9e6e16df36b0",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\自定义组件 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "397325e8b8286c9cde508e5a3c39f2112dcf8b3d03d9abc52000ee83b52a0593",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\自定义组件 - 像塑工具文档 - 像塑桌面版 外部文档空间 (10).mp4",
+      "sha256": "4e2fce995b1d36e4b6e180c1f018449baf235f2e89df42a1e17f92396165ea1c",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\自定义组件 - 像塑工具文档 - 像塑桌面版 外部文档空间 (11).mp4",
+      "sha256": "fe241dd95a74de2646909979910f53382546c4ba6229617c150146d101184fa9",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\自定义组件 - 像塑工具文档 - 像塑桌面版 外部文档空间 (12).mp4",
+      "sha256": "3fc1955ebf95b04619194357ac1942a7ddae0045641babf59a2265304c8ce146",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\自定义组件 - 像塑工具文档 - 像塑桌面版 外部文档空间 (14).mp4",
+      "sha256": "4ffc791e0992e448610d4a1ef6eeb47cc3f990c4918806dbd6871588aefbe6d8",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\自定义组件 - 像塑工具文档 - 像塑桌面版 外部文档空间 (15).mp4",
+      "sha256": "bb5f5b3809c36ffb170b8d190082650805cd1a24172b0a0734195032ace630b7",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\自定义组件 - 像塑工具文档 - 像塑桌面版 外部文档空间 (16).mp4",
+      "sha256": "0cdd4930c47389936cb96d0772b5ce8f337e96fcbab83125860657f7b91d091b",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\自定义组件 - 像塑工具文档 - 像塑桌面版 外部文档空间 (17).mp4",
+      "sha256": "fb95d93be41fc38f3304f53bbff6a03b4f00fa17aa156f814138fab9d1a9e8cd",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\自定义组件 - 像塑工具文档 - 像塑桌面版 外部文档空间 (18).mp4",
+      "sha256": "507882fea27fcdd8a5044755376aba79f068f881b8e66f7903e2b09a654c514d",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\自定义组件 - 像塑工具文档 - 像塑桌面版 外部文档空间 (19).mp4",
+      "sha256": "3fd8a485211d6acfb720176d055db3d93d318c3f11f56ef2bd4f7bc15c1cb8ab",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\自定义节点脚本编写 - 像塑工具文档 - 像塑桌面版 外部文档空间",
+      "sha256": "c0fb2d75a12e9f36585f035d50ad7ca55a1065141beed6886c6d4c052a98e5c4",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\自定义节点脚本编写 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1)",
+      "sha256": "83618fbc0b5a564ff948e327b124efaf6aeafc2b4b3699ff964ec6044352ba11",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\触发条件 - 像塑工具文档 - 像塑桌面版 外部文档空间 (3).mp4",
+      "sha256": "82ed3854a912b8ede193c3cc304f3b811cd07c2e87e7a4e6fcc7de2c0f4316e5",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\设置个人、团队排行榜数据 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1).mp4",
+      "sha256": "55f190e918a31d56a09e77856bfb0e96258df2fbda16135cc2c8a260d884025f",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\设置个人、团队排行榜数据 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "712297bc2e8523393ae35f3f38e6e0d8af4d558d15171dca47dd1343b7635297",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\象棋 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "10e8e4651e8d9c22011c2231900d363c800a1d9b73e2027d7da25ec6169fcd72",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\足部跟踪 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "22c6e317f08a392ec05531c806e5c68badb3d4d2f0a9881c3962513ee55d323b",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\跟脸背景抠图 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "019599aff4c897e74024b5aaff9d390c6a3b02186513def217249786c2727eef",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\身体描边 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "b15718d49418795dcfd0256feac413efc7948b67971d2e928e816636c288fdd3",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\音频播放器 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "99c04142fa637323380d77ae32e49c821f90a2a3639982eb4aa7c96ff8cd1a2f",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\预制件 - 像塑工具文档 - 像塑桌面版 外部文档空间",
+      "sha256": "4e79af5cd4f3f2ba713baddbcc0a82708b4a90b47250dfb743df08a3a2e2f1ac",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\预制件 - 像塑工具文档 - 像塑桌面版 外部文档空间 (1)",
+      "sha256": "5371f1534cd64c834771712355ea66ae12d3ea4532c8cceaff7f769a9d495e7c",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\预制件 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "02f05283237c1f1ce8249c163aba465bd1bfd6ca10696623e61ac6db05681c01",
+      "kind": "local_video"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\学习素材\\黄金矿工 - 像塑工具文档 - 像塑桌面版 外部文档空间.mp4",
+      "sha256": "36d664b35d661f04ccf898c084be15077bf0da9ef20313dabad7b30f82726e70",
+      "kind": "local_video"
+    },
+    {
+      "path": "C:/Users/18168/Downloads/lineage-skill-main.zip",
+      "sha256": "82f9e71a48da4f4fcd26f1aea86ce1a07a503335863574a8a385da022faefbce"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\scripts\\lifecycle.py",
+      "sha256": "0e361375ff5f41e4975619ad12cd5c6ba9a71e7211366b419f09216151b1b236",
+      "kind": "maintenance_script"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\scripts\\atomic_move.ps1",
+      "sha256": "7ae1bc09fb27b78419ba87aabda94517536fed6b87346adef52c4c1f0472fdd7",
+      "kind": "maintenance_script"
+    },
+    {
+      "path": "D:\\workbuddy\\像塑特效\\lineage-skill-main\\scripts\\llm_client.py",
+      "sha256": "2130445a6995933e23fdbb964e21cec5e7acd895edba7d27b8fa369d1fe9766f",
+      "kind": "local_compiler_or_method"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-learning-20261007\\compose_candidate.py",
+      "sha256": "c6efaadde8cebf797e533b196cb4ab0fc038d9ee4c398090b882913014dfeeaf",
+      "kind": "local_compiler_or_method"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-learning-20261007\\repair_topics.py",
+      "sha256": "8087cd935bf3ea7b87e38d3e842d6f837ce26a021ff98cd603da7c7e7f107b5c",
+      "kind": "local_compiler_or_method"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\skills\\governed-skill-lifecycle\\SKILL.md",
+      "sha256": "75061a97e3e7d206fdec87de814fb8723e4a6c016476b93d9582bb42aa1f9c93",
+      "kind": "local_compiler_or_method"
+    },
+    {
+      "path": "C:\\Users\\18168\\.codex\\skills\\.system\\skill-creator\\SKILL.md",
+      "sha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+      "kind": "local_compiler_or_method"
+    },
+    {
+      "path": "D:\\微信聊天记录\\xwechat_files\\wxid_wt3feujlfqo22_175e\\temp\\RWTemp\\2026-10\\b442564f3bbaceb613792c472e972397\\8153c4d828e2b067f9d047358794bd91.jpg",
+      "sha256": "8251727ad6d3e52e13ffb10fff01cdd1ae1ac0f93423e833e111728b4c60c39f",
+      "kind": "user_supplied_review_screenshot"
+    },
+    {
+      "path": "D:\\微信聊天记录\\xwechat_files\\wxid_wt3feujlfqo22_175e\\temp\\RWTemp\\2026-10\\b442564f3bbaceb613792c472e972397\\3b0520879e18af81eb5a7be58a987515.jpg",
+      "sha256": "f9b757605398c1d4558dc85444b32d420d9d8b015715533f1fc6dfd7e8d6e8f0",
+      "kind": "user_supplied_review_screenshot"
+    },
+    {
+      "path": "D:\\微信聊天记录\\xwechat_files\\wxid_wt3feujlfqo22_175e\\temp\\RWTemp\\2026-10\\b442564f3bbaceb613792c472e972397\\ddadd456160686e38c2fdf0acd969290.jpg",
+      "sha256": "9b03a156c3cea157a8cdd2db26433fcc9d601aaa1c6285fda623c6eca8e90853",
+      "kind": "user_supplied_review_screenshot"
+    },
+    {
+      "path": "D:\\微信聊天记录\\xwechat_files\\wxid_wt3feujlfqo22_175e\\temp\\RWTemp\\2026-10\\b442564f3bbaceb613792c472e972397\\846237f0dfd24ab5b40a4f2993edfb33.jpg",
+      "sha256": "ca213981eac1f9b8840108bc498064616a680c2c13a4f5f61277116945351f6f",
+      "kind": "user_supplied_review_screenshot"
+    },
+    {
+      "path": "C:\\Users\\18168\\AppData\\Local\\Temp\\codex-clipboard-f0e901f5-74ef-4c01-8814-8d9bfb5cf1fd.png",
+      "sha256": "9ee2874f16780ae8f164b3d57a550d3f16e986150571b64aea57492a9b25b617",
+      "kind": "user_supplied_review_screenshot"
+    },
+    {
+      "path": "C:\\Users\\18168\\.agents\\artifacts\\xiangsu-review-update-20261009\\evidence-index.json",
+      "sha256": "39a6f21a741a6578206ee174263878e990a617999a0ea4d91ce191ef3cd8f2d2",
+      "kind": "local_session_evidence_summary"
+    }
+  ],
+  "source_dir": "D:\\workbuddy\\像塑特效\\学习素材",
+  "creation_basis": "user-request-and-local-course-materials",
+  "maintenance": {
+    "check": "scripts/lifecycle.py check-sources",
+    "optimization": "actual-failure-based-candidate",
+    "install": "human-approved-current-plan-only"
+  },
+  "local_extension_basis": "2026-10-09 user review screenshots and observed local practice"
+}

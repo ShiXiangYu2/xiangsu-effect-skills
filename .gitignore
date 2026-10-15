@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.pfx
+__pycache__/
+*.pyc
+node_modules/
+*.tmp

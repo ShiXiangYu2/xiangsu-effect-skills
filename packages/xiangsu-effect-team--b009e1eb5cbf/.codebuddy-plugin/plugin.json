@@ -1,0 +1,174 @@
+{
+  "name": "xiangsu-effect-team",
+  "version": "1.0.0",
+  "description": "A six-role expert team that turns ideas into shippable Xiangsu camera effects, with JEV probabilistic decision gates on every stage.",
+  "author": {
+    "name": "ShiXiangYu",
+    "email": "shixiangyu@dishu.cn"
+  },
+  "agents": [
+    "./agents/xiangsu-effect-team-team-lead.md",
+    "./agents/xiangsu-planner.md",
+    "./agents/xiangsu-designer.md",
+    "./agents/xiangsu-creator.md",
+    "./agents/xiangsu-asset-master.md",
+    "./agents/xiangsu-vfx-engineer.md",
+    "./agents/xiangsu-verifier.md"
+  ],
+  "skills": [
+    "./skills/xiangsu-effect-workflow"
+  ],
+  "expertType": "team",
+  "agentName": "xiangsu-effect-team-team-lead",
+  "teamInfo": {
+    "leadAgent": "xiangsu-effect-team-team-lead",
+    "memberAgents": [
+      "xiangsu-planner",
+      "xiangsu-designer",
+      "xiangsu-creator",
+      "xiangsu-asset-master",
+      "xiangsu-vfx-engineer",
+      "xiangsu-verifier"
+    ]
+  },
+  "displayName": {
+    "en": "Xiangsu Effects Crew",
+    "zh": "像塑特效专家团"
+  },
+  "profession": {
+    "en": "Xiangsu Effects Crew",
+    "zh": "像塑特效专家团"
+  },
+  "displayDescription": {
+    "en": "A six-role pipeline (planning, design, creative, assets, VFX, verification) that ships production-ready camera effects, guarded by JEV probabilistic decision gates.",
+    "zh": "策划、设计、创意、素材、特效、验证六角色流水线，JEV 概率决策门把关，交付可上线的像塑特效成片。"
+  },
+  "avatar": "avatars/team.jpg",
+  "categoryId": "03-GameSpatial",
+  "defaultInitPrompt": {
+    "zh": "我要做一个像塑特效：从想法到成片，走完整专家团流水线",
+    "en": "I want to build a Xiangsu effect: take my idea through the full pipeline to a shippable effect"
+  },
+  "plugin": "xiangsu-effect-team",
+  "tags": [
+    {
+      "en": "Visual Effects",
+      "zh": "特效制作"
+    },
+    {
+      "en": "AR Effect Design",
+      "zh": "像塑特效"
+    },
+    {
+      "en": "AI Production Pipeline",
+      "zh": "AI生产流水线"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I want to build a Xiangsu effect: take my idea through the full pipeline to a shippable effect",
+      "zh": "我要做一个像塑特效：从想法到成片，走完整专家团流水线"
+    },
+    {
+      "en": "Evaluate technical routes for my effect idea and give probabilistic decisions",
+      "zh": "帮我评估这个特效创意的技术路线，并给出概率化决策"
+    },
+    {
+      "en": "Review this effect project for quality and decide if it is ready to ship",
+      "zh": "审查这个特效工程的质量，判断是否可上线"
+    }
+  ],
+  "members": [
+    {
+      "id": "xiangsu-effect-team-team-lead",
+      "displayName": {
+        "en": "Shen Chengpian",
+        "zh": "沈成片"
+      },
+      "profession": {
+        "en": "Production Director",
+        "zh": "制作总监"
+      },
+      "avatar": "avatars/xiangsu-effect-team-team-lead.jpg",
+      "role": "lead"
+    },
+    {
+      "id": "xiangsu-planner",
+      "displayName": {
+        "en": "Ling Ceyuan",
+        "zh": "凌策远"
+      },
+      "profession": {
+        "en": "Planning Director",
+        "zh": "策划总监"
+      },
+      "avatar": "avatars/xiangsu-planner.jpg",
+      "role": "member"
+    },
+    {
+      "id": "xiangsu-designer",
+      "displayName": {
+        "en": "Chen Guixin",
+        "zh": "陈规新"
+      },
+      "profession": {
+        "en": "Design Director",
+        "zh": "设计总监"
+      },
+      "avatar": "avatars/xiangsu-designer.jpg",
+      "role": "member"
+    },
+    {
+      "id": "xiangsu-creator",
+      "displayName": {
+        "en": "Xin Qisi",
+        "zh": "辛奇思"
+      },
+      "profession": {
+        "en": "Creative Director",
+        "zh": "创意总监"
+      },
+      "avatar": "avatars/xiangsu-creator.jpg",
+      "role": "member"
+    },
+    {
+      "id": "xiangsu-asset-master",
+      "displayName": {
+        "en": "Shi Chengjin",
+        "zh": "石成金"
+      },
+      "profession": {
+        "en": "Asset Director",
+        "zh": "素材总监"
+      },
+      "avatar": "avatars/xiangsu-asset-master.jpg",
+      "role": "member"
+    },
+    {
+      "id": "xiangsu-vfx-engineer",
+      "displayName": {
+        "en": "Niu Xuancai",
+        "zh": "钮炫彩"
+      },
+      "profession": {
+        "en": "VFX Director",
+        "zh": "特效总监"
+      },
+      "avatar": "avatars/xiangsu-vfx-engineer.jpg",
+      "role": "member"
+    },
+    {
+      "id": "xiangsu-verifier",
+      "displayName": {
+        "en": "Zhen Keshang",
+        "zh": "甄可上"
+      },
+      "profession": {
+        "en": "QA Director",
+        "zh": "验证总监"
+      },
+      "avatar": "avatars/xiangsu-verifier.jpg",
+      "role": "member"
+    }
+  ]
+}
